@@ -1,0 +1,67 @@
+schema_version: sourcey.entity-authoring/v1alpha1
+entity:
+  entity_id: ent_01m1cxztgg21jv5x0d3pm5005g
+  slug: azion
+  slug_aliases: []
+  name: Azion
+  domains:
+    - value: azion.com
+      role: primary
+      valid_from: 2026-08-31T22:10:42Z
+  category: hosting-infra
+profile:
+  description: Azion provides an edge platform for building, securing, delivering, and observing applications.
+  links:
+    site: https://www.azion.com
+sources:
+  - source_id: src_0c3c969491d8cefa7643adc05d6fa490e5afcf7f260559edbd39ab403f31a8a1
+    url: https://www.azion.com/en/lp/azion-scale-up/
+  - source_id: src_57ae51eb31d70a847c05d3f9e2caac92ef33363a0e0601e803a20c010b1d92ca
+    url: https://www.azion.com/en/documentation/agreements/azion-incentive-credits-terms-and-conditions/
+programs:
+  - program_id: prg_01m1cxzth2f8j6wr8wnzx4eenr
+    program_slug: scale-up-credit-program
+    program_slug_aliases: []
+    title: Azion Scale Up Credit Program
+    summary: Azion's Scale Up Credit Program provides selected companies with service credits for using the Azion platform.
+    source_ids:
+      - src_0c3c969491d8cefa7643adc05d6fa490e5afcf7f260559edbd39ab403f31a8a1
+offers:
+  - offer_id: off_01m1cxzth3ew25t51fm70zew7g
+    program_id: prg_01m1cxzth2f8j6wr8wnzx4eenr
+    offer_slug: up-to-120000-service-credits
+    offer_slug_aliases: []
+    title: Up to $120,000 in Azion Service Credits
+    summary: Selected companies can receive up to $120,000 in credits for future use of Azion products and services.
+    lifecycle:
+      status: active
+      effective_from: 2026-08-31T22:10:42Z
+    economics:
+      consideration:
+        kind: none
+      benefits:
+        - benefit_id: ben_01
+          description: Up to $120,000 in Azion service credits.
+          kind: credit
+          value:
+            amount:
+              currency: USD
+              minor_units: 12000000
+            kind: up-to
+    eligibility:
+      rule:
+        kind: manual
+        criterion_id: cri_01
+        statement: Applicant requests contact through the Azion Scale Up Credit Program, and Azion determines the awarded credit amount.
+        reason: vendor-discretion
+    roles:
+      terms_authority_entity_id: ent_01m1cxztgg21jv5x0d3pm5005g
+      access_operator_entity_id: ent_01m1cxztgg21jv5x0d3pm5005g
+    access:
+      availability: public
+      method: form
+      url: https://www.azion.com/en/lp/azion-scale-up/
+    terms_url: https://www.azion.com/en/documentation/agreements/azion-incentive-credits-terms-and-conditions/
+    source_ids:
+      - src_0c3c969491d8cefa7643adc05d6fa490e5afcf7f260559edbd39ab403f31a8a1
+      - src_57ae51eb31d70a847c05d3f9e2caac92ef33363a0e0601e803a20c010b1d92ca
