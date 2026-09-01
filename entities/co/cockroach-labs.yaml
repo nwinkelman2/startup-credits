@@ -1,0 +1,64 @@
+schema_version: sourcey.entity-authoring/v1alpha1
+entity:
+  entity_id: ent_01m1dhqvwbyj97jzy27ydhpr6y
+  slug: cockroach-labs
+  slug_aliases:
+    - cockroachdb
+  name: Cockroach Labs
+  domains:
+    - value: cockroachlabs.com
+      role: primary
+      valid_from: 2026-09-01T00:55:00.000Z
+  category: databases
+profile:
+  description: Cockroach Labs develops CockroachDB, a distributed SQL database available as the fully managed CockroachDB Cloud platform.
+  links:
+    site: https://www.cockroachlabs.com/
+sources:
+  - source_id: src_332d878b2c73344931554e4ebc5587f5155ae79049fc1df640b615ae4a2c8b12
+    url: https://www.cockroachlabs.com/product/cloud/
+  - source_id: src_f55aca0070942fb293a75c0d07f47f3a6b1ec78fa686f05906e87148c603957b
+    url: https://www.cockroachlabs.com/pricing/
+programs: []
+offers:
+  - offer_id: off_01m1dhqvwyxtk333ryy66zw8hv
+    offer_slug: cockroachdb-cloud-free-credits
+    offer_slug_aliases: []
+    title: CockroachDB Cloud Free Credits
+    summary: New CockroachDB Cloud users receive $400 in credits for their first 30 days, applicable to every Cloud plan.
+    lifecycle:
+      status: active
+      effective_from: 2026-09-01T00:55:00.000Z
+    economics:
+      benefits:
+        - benefit_id: ben_01
+          description: $400 in CockroachDB Cloud credits for use during the first 30 days; the credits apply to all Cloud plans.
+          duration:
+            kind: exact
+            value: P30D
+          kind: credit
+          value:
+            kind: exact
+            amount:
+              currency: USD
+              minor_units: 40000
+      consideration:
+        kind: none
+    eligibility:
+      rule:
+        criterion_id: cri_01
+        kind: manual
+        reason: external-verification
+        statement: The applicant is a new CockroachDB Cloud user starting a new Cloud organization.
+    roles:
+      terms_authority_entity_id: ent_01m1dhqvwbyj97jzy27ydhpr6y
+      access_operator_entity_id: ent_01m1dhqvwbyj97jzy27ydhpr6y
+    access:
+      availability: public
+      method: form
+      url: https://cockroachlabs.cloud/signup
+      instructions: Create a new CockroachDB Cloud organization; no credit card is required for the Basic and Standard plans.
+    terms_url: https://www.cockroachlabs.com/product/cloud/
+    source_ids:
+      - src_332d878b2c73344931554e4ebc5587f5155ae79049fc1df640b615ae4a2c8b12
+      - src_f55aca0070942fb293a75c0d07f47f3a6b1ec78fa686f05906e87148c603957b
