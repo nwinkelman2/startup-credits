@@ -1,0 +1,95 @@
+schema_version: sourcey.entity-authoring/v1alpha1
+entity:
+  entity_id: ent_jjkv9rakpkjvjn635myjc43z4m
+  slug: monosnap
+  slug_aliases: []
+  name: Monosnap
+  domains:
+    - value: monosnap.ai
+      role: primary
+      valid_from: 2026-09-01T07:43:50.459Z
+  category: productivity
+profile:
+  description: Monosnap provides screenshot annotation, screen and GIF recording, cloud file storage, sharing, integrations, and administrative controls for business teams.
+  links:
+    site: https://monosnap.ai
+sources:
+  - source_id: src_f50d98fc208886c56bb2d6a6ce95c19b959235c655c6fa4b917283724524b2d7
+    url: https://monosnap.zendesk.com/hc/en-us/articles/5536773521682-Monosnap-for-Strartups
+  - source_id: src_ad42aec0742ee1d222019a7493c3e88ab7e50ac5be439f4e8af44ae051c898eb
+    url: https://monosnap.ai/enterprise
+programs:
+  - program_id: prg_djqyc4mg5whq0gg6fv8hapv8k1
+    program_slug: monosnap-for-startups
+    program_slug_aliases: []
+    title: Monosnap for Startups
+    summary: Monosnap gives eligible externally funded startups tiered three-year Commercial or Enterprise annual-plan benefits based on total funding raised.
+    source_ids:
+      - src_f50d98fc208886c56bb2d6a6ce95c19b959235c655c6fa4b917283724524b2d7
+offers:
+  - offer_id: off_y1d8d14zanpn70kkwvtg3jx54k
+    program_id: prg_djqyc4mg5whq0gg6fv8hapv8k1
+    offer_slug: three-year-startup-pricing
+    offer_slug_aliases: []
+    title: Tiered Monosnap startup pricing for three years
+    summary: Eligible startups receive three years of Commercial or Enterprise annual-plan benefits, with the first-year benefit ranging from free full access to 50% off based on funding raised.
+    lifecycle:
+      status: active
+      effective_from: 2026-09-01T07:43:50.459Z
+    economics:
+      benefits:
+        - benefit_id: ben_01
+          description: Startups with less than USD 5 million raised receive free full Monosnap access and up to 20 GB of cloud storage per account in year one, 50% off in year two, and 25% off in year three; startups with more than USD 5 million raised receive 50% off in year one, 25% off in year two, and 15% off in year three.
+          kind: other
+      consideration:
+        kind: variable
+        description: Benefits apply to annual Commercial or Enterprise plans; the Non-Commercial plan is excluded, and participants pay the discounted plan price after any free-access period.
+    eligibility:
+      rule:
+        kind: any
+        rules:
+          - criterion_id: cri_01
+            kind: manual
+            reason: external-verification
+            statement: The startup is associated with a Monosnap partner.
+          - kind: all
+            rules:
+              - criterion_id: cri_02
+                fact: company.is_current_customer
+                kind: predicate
+                operator: eq
+                statement: The applicant must be a new Monosnap customer.
+                value:
+                  type: boolean
+                  value: false
+              - criterion_id: cri_03
+                fact: company.stage
+                kind: predicate
+                operator: in
+                statement: The startup must have raised outside funding at the pre-seed, seed, or Series A stage.
+                value:
+                  type: string-set
+                  values:
+                    - pre-seed
+                    - seed
+                    - series-a
+              - criterion_id: cri_04
+                fact: company.employee_count
+                kind: predicate
+                operator: lt
+                statement: The startup must have fewer than 250 employees.
+                value:
+                  type: number
+                  value: 250
+    roles:
+      terms_authority_entity_id: ent_jjkv9rakpkjvjn635myjc43z4m
+      access_operator_entity_id: ent_jjkv9rakpkjvjn635myjc43z4m
+    access:
+      availability: public
+      instructions: Contact Monosnap through its Enterprise page and request the startup programme.
+      method: contact
+      url: https://monosnap.ai/enterprise
+    terms_url: https://monosnap.zendesk.com/hc/en-us/articles/5536773521682-Monosnap-for-Strartups
+    source_ids:
+      - src_f50d98fc208886c56bb2d6a6ce95c19b959235c655c6fa4b917283724524b2d7
+      - src_ad42aec0742ee1d222019a7493c3e88ab7e50ac5be439f4e8af44ae051c898eb
