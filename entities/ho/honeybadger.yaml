@@ -1,0 +1,85 @@
+schema_version: sourcey.entity-authoring/v1alpha1
+entity:
+  entity_id: ent_01m1dgv9msyg7qsas7adcrg53p
+  slug: honeybadger
+  slug_aliases: []
+  name: Honeybadger
+  domains:
+    - value: honeybadger.io
+      role: primary
+      valid_from: 2026-09-01T03:35:00.000Z
+  category: observability
+profile:
+  description: Honeybadger provides real-time error tracking, application performance monitoring, logging, uptime monitoring, and check-in monitoring.
+  links:
+    site: https://www.honeybadger.io/
+sources:
+  - source_id: src_3cbd3a173e67b2567e7477533ae8a3696175dd58c4cd439f7312c2e2bb10c323
+    url: https://www.honeybadger.io/
+  - source_id: src_f5d5cd401d386737d5e7e6d0941e3cc17a6b81b903809705f508329e914b5618
+    url: https://docs.honeybadger.io/resources/referral-program/
+  - source_id: src_1118c8f70e6a1607670b4815c66d2ffb14a9d501d07d109d3d4d960bdaddb0ad
+    url: https://www.honeybadger.io/terms/referral-agreement/
+programs:
+  - program_id: prg_01m1dgv9nk5pgpgn44z9888rs1
+    program_slug: customer-referral-program
+    program_slug_aliases: []
+    title: Honeybadger Customer Referral Program
+    summary: Honeybadger customers can refer new paying customers and receive invoice credits based on the revenue Honeybadger receives from those referrals.
+    source_ids:
+      - src_f5d5cd401d386737d5e7e6d0941e3cc17a6b81b903809705f508329e914b5618
+      - src_1118c8f70e6a1607670b4815c66d2ffb14a9d501d07d109d3d4d960bdaddb0ad
+offers:
+  - offer_id: off_01m1dgv9nk727gz9eswgmqgv4j
+    program_id: prg_01m1dgv9nk5pgpgn44z9888rs1
+    offer_slug: twenty-percent-referral-invoice-credit
+    offer_slug_aliases: []
+    title: 20% Referral Invoice Credit
+    summary: Receive invoice credits equal to 20% of payments Honeybadger receives from referred new customers, capped by the referrer's invoice; credits continue while both accounts remain active.
+    lifecycle:
+      status: active
+      effective_from: 2026-09-01T03:35:00.000Z
+    economics:
+      benefits:
+        - benefit_id: ben_01
+          description: Invoice credits equal to 20% of the revenue Honeybadger receives from qualifying referred customers, capped by the referrer's valid outstanding invoice and never paid in cash.
+          kind: cashback
+          value:
+            kind: percentage
+            value:
+              basis_points: 2000
+              kind: exact
+      consideration:
+        kind: variable
+        description: Refer a new Honeybadger customer through the referral program; credit accrues only after Honeybadger receives the referred customer's payment.
+    eligibility:
+      rule:
+        kind: all
+        rules:
+          - criterion_id: cri_01
+            kind: manual
+            reason: external-verification
+            statement: The referrer is a Honeybadger customer who accepts the referral agreement and uses the referral route in Settings and billing.
+          - criterion_id: cri_02
+            kind: manual
+            reason: external-verification
+            statement: The referred company has not previously done business with Honeybadger and is not a current or former Honeybadger customer when referred.
+          - criterion_id: cri_03
+            kind: manual
+            reason: external-verification
+            statement: Honeybadger receives payment from the referred customer, and both the referrer and referred-customer accounts remain active.
+          - criterion_id: cri_04
+            kind: manual
+            reason: external-verification
+            statement: Annual credits are capped at $600 until the referrer provides the tax information Honeybadger requires for Form 1099 reporting.
+    roles:
+      terms_authority_entity_id: ent_01m1dgv9msyg7qsas7adcrg53p
+      access_operator_entity_id: ent_01m1dgv9msyg7qsas7adcrg53p
+    access:
+      availability: membership
+      method: other
+      instructions: In a Honeybadger account, open Settings and billing, select Referrals, accept the terms, and share the generated referral link.
+    terms_url: https://www.honeybadger.io/terms/referral-agreement/
+    source_ids:
+      - src_f5d5cd401d386737d5e7e6d0941e3cc17a6b81b903809705f508329e914b5618
+      - src_1118c8f70e6a1607670b4815c66d2ffb14a9d501d07d109d3d4d960bdaddb0ad
