@@ -10,6 +10,7 @@ entity:
       valid_from: 2026-08-22T04:50:00.000Z
   category: ai-ml
 profile:
+  summary: Conversation-intelligence and agentic AI APIs for voice, video, and chat.
   description: Symbl.ai provides conversation-intelligence and agentic AI APIs that turn voice, video, and chat communication into real-time assistance and automation.
   links:
     site: https://symbl.ai
@@ -51,8 +52,7 @@ offers:
           description: Exclusive access to the Symbl.ai startup community for founders working on voice and conversation intelligence.
           kind: other
       consideration:
-        kind: unknown
-        description: The public application page does not establish separate consideration beyond eligibility requirements.
+        kind: none
     eligibility:
       rule:
         kind: all
