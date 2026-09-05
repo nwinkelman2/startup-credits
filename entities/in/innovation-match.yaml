@@ -8,7 +8,7 @@ entity:
     - value: innovationmatch.io
       role: primary
       valid_from: 2026-09-01T06:45:00.000Z
-  category: crm-sales
+  category: marketing
 profile:
   summary: Business matchmaking, commercial introductions, visibility, and sales outreach.
   description: Innovation Match provides business matchmaking, commercial introductions, events, visibility, and sales-outreach services for innovative companies and solution providers.
@@ -37,9 +37,8 @@ offers:
       effective_from: 2026-09-01T06:45:00.000Z
     economics:
       benefits:
-        - applies_to: Innovation Match PRIME subscription
-          benefit_id: ben_01
-          description: 50% off the PRIME monthly subscription, reducing the price from €599 to €299 per month.
+        - benefit_id: ben_01
+          description: 50% startup discount on the PRIME subscription.
           kind: discount
           percentage:
             kind: exact
