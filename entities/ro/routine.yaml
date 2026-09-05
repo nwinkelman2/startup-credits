@@ -10,6 +10,7 @@ entity:
       valid_from: 2026-09-02T10:13:29.122Z
   category: productivity
 profile:
+  summary: Productivity workspace for calendars, tasks, projects, notes, and team planning.
   description: Routine is a productivity workspace that combines calendar, tasks, projects, notes, knowledge, and team planning.
   links:
     site: https://routine.co
@@ -37,7 +38,7 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: One year of Routine Business free, worth up to $2,500 depending on team size
+          description: One year of Routine Business free
           kind: free-service
           service: Routine Business plan
           duration:
