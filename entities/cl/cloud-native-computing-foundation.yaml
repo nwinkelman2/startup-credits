@@ -11,7 +11,7 @@ entity:
       valid_from: 2026-09-01T07:55:19.1659258Z
   category: other
 profile:
-  description: The Cloud Native Computing Foundation provides a vendor-neutral home for cloud-native open-source projects and supports the organizations and community building the cloud-native ecosystem.
+  description: CNCF offers a Silver Membership for Startups designed to connect and recognize small teams in the cloud-native ecosystem.
   links:
     site: https://www.cncf.io
 sources:
@@ -37,19 +37,18 @@ offers:
       effective_from: 2026-09-01T07:55:19.1659258Z
     economics:
       benefits:
-        - applies_to: KubeCon + CloudNativeCon booth pricing
-          benefit_id: ben_01
-          description: 50% off KubeCon + CloudNativeCon booth pricing
+        - benefit_id: ben_01
+          description: 50% off the KubeCon + CloudNativeCon booth price.
           kind: discount
           percentage:
             basis_points: 5000
             kind: exact
         - benefit_id: ben_02
-          description: Priority booth placement at KubeCon + CloudNativeCon
+          description: Priority placement with a Startup Sponsorship.
           kind: other
       consideration:
-        kind: variable
-        description: The approved startup pays the remaining sponsorship fee for its selected KubeCon + CloudNativeCon booth package.
+        kind: unknown
+        description: The public startup page does not publish the payable Startup Sponsorship booth price.
     eligibility:
       rule:
         kind: all
