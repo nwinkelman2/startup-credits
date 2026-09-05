@@ -27,20 +27,18 @@ programs:
 offers:
   - offer_id: off_vram90xtjyf24amc9bw9z2bh09
     program_id: prg_5tzwgv5wetmf5shvp81z0agqh5
-    offer_slug: academia-750-shop-credit
+    offer_slug: new-subscriber-shop-credit
     offer_slug_aliases: []
-    title: $750 in Quartzy Shop credit for Academia subscribers
-    summary: New Academia-plan subscribers receive $750 in Quartzy Shop credit with an annual subscription for up to three users.
+    title: Up to $3,000 in Quartzy Shop credit for new subscribers
+    summary: New annual subscribers receive $750 in Shop credit on Academia or $3,000 on Industry when they subscribe by September 30, 2026.
     lifecycle:
       status: active
       effective_from: 2026-09-01T10:46:44.580Z
       effective_until: 2026-09-30T23:59:59.999Z
     economics:
       consideration:
-        kind: fixed
-        amount:
-          currency: USD
-          minor_units: 60000
+        kind: variable
+        description: The annual Academia subscription costs $600 for up to three users; the annual Industry subscription costs $3,000 for up to five users.
       benefits:
         - benefit_id: ben_01
           description: $750 in Quartzy Shop credit issued by participating suppliers during onboarding
@@ -50,48 +48,8 @@ offers:
               currency: USD
               minor_units: 75000
             kind: exact
-    eligibility:
-      rule:
-        kind: all
-        rules:
-          - criterion_id: cri_01
-            kind: manual
-            statement: Applicant is a new Quartzy customer.
-            reason: external-verification
-          - criterion_id: cri_02
-            kind: manual
-            statement: Applicant subscribes to the Quartzy Academia plan by September 30, 2026.
-            reason: external-verification
-    roles:
-      terms_authority_entity_id: ent_21x3svha04vkekgk9dr7tv3yac
-      access_operator_entity_id: ent_21x3svha04vkekgk9dr7tv3yac
-    access:
-      availability: public
-      instructions: Use Get Started on Quartzy's public pricing page and complete a new Academia subscription by September 30, 2026. Participating suppliers issue the Shop credit during onboarding.
-      method: form
-      url: https://www.quartzy.com/pricing
-    terms_url: https://www.quartzy.com/pricing
-    source_ids:
-      - src_4fcd28421f68563453d953ff11f3a49ab60e18a7b3d041c4c29011c316d6f547
-  - offer_id: off_bqb5e7aabxawh4g97wsdfq6029
-    program_id: prg_5tzwgv5wetmf5shvp81z0agqh5
-    offer_slug: industry-3000-shop-credit
-    offer_slug_aliases: []
-    title: $3,000 in Quartzy Shop credit for Industry subscribers
-    summary: New Industry-plan subscribers receive $3,000 in Quartzy Shop credit with an annual subscription for up to five users.
-    lifecycle:
-      status: active
-      effective_from: 2026-09-01T10:46:44.580Z
-      effective_until: 2026-09-30T23:59:59.999Z
-    economics:
-      consideration:
-        kind: fixed
-        amount:
-          currency: USD
-          minor_units: 300000
-      benefits:
-        - benefit_id: ben_01
-          description: $3,000 in Quartzy Shop credit issued by participating suppliers during onboarding
+        - benefit_id: ben_02
+          description: $3,000 in Quartzy Shop credit for Industry subscribers, issued by participating suppliers during onboarding
           kind: credit
           value:
             amount:
@@ -108,14 +66,14 @@ offers:
             reason: external-verification
           - criterion_id: cri_02
             kind: manual
-            statement: Applicant subscribes to the Quartzy Industry plan by September 30, 2026.
+            statement: Applicant subscribes to the Quartzy Academia or Industry annual plan by September 30, 2026; the selected plan determines the credit amount.
             reason: external-verification
     roles:
       terms_authority_entity_id: ent_21x3svha04vkekgk9dr7tv3yac
       access_operator_entity_id: ent_21x3svha04vkekgk9dr7tv3yac
     access:
       availability: public
-      instructions: Use Get Started on Quartzy's public pricing page and complete a new Industry subscription by September 30, 2026. Participating suppliers issue the Shop credit during onboarding.
+      instructions: Use Get Started on Quartzy's public pricing page and complete a new Academia or Industry annual subscription by September 30, 2026. Participating suppliers issue the applicable Shop credit during onboarding.
       method: form
       url: https://www.quartzy.com/pricing
     terms_url: https://www.quartzy.com/pricing
