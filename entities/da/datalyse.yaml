@@ -88,7 +88,6 @@ offers:
     access:
       availability: public
       method: contact
-      url: https://contact.datalyse.io/contact
       instructions: Use the Apply for the programme link on Datalyse's startup page to contact Datalyse.
     source_ids:
       - src_02e41a99210ccf7438a975b7edecabf304f047f7f85b817b59d5f198836fc031
