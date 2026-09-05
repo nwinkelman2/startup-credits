@@ -37,7 +37,7 @@ offers:
       effective_from: 2026-09-01T10:54:53.039Z
     economics:
       consideration:
-        kind: nonmonetary
+        kind: unknown
         description: A recipient must place the Cloud4Y logo and a link to Cloud4Y on the homepage of its website.
       benefits:
         - benefit_id: ben_01
