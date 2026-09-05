@@ -38,6 +38,7 @@ offers:
     economics:
       consideration:
         kind: unknown
+        description: Tencent RTC does not state any price or other payable consideration on the public program page.
       benefits:
         - benefit_id: ben_01
           description: Free Tencent RTC credits worth up to $3,000
