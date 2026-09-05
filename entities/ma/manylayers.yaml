@@ -18,6 +18,8 @@ sources:
     url: https://manylayers.io/startup-program/
   - source_id: src_61887b7de1fc4e382694934502f9f2463c1d4f028f6af8d4dc1da2adad377957
     url: https://manylayers.io/
+  - source_id: src_a87c6d4fb95f4bcd9e7cbb49cae8837c9cbc2430093883a8d90a62bbbcf231ce
+    url: https://manylayers.io/talk-to-us/
 programs:
   - program_id: prg_01m1a761r67hp60vr5rsjm7zsq
     program_slug: manylayers-startup-program
@@ -41,14 +43,14 @@ offers:
         kind: none
       benefits:
         - benefit_id: ben_01
-          description: Full access to the ManyLayers Team tier, Gateway, Workspace, and Deploy is provided at no charge for 12 months; GPU compute is not included.
+          description: Free Team tier for 12 months with all features included.
           kind: free-service
           service: ManyLayers Team tier
           duration:
             kind: exact
             value: P1Y
         - benefit_id: ben_02
-          description: Dedicated Slack support, onboarding, usage guidance, and evaluation assistance are included.
+          description: Dedicated Slack channel with engineering support.
           kind: other
     eligibility:
       rule:
@@ -61,9 +63,9 @@ offers:
       access_operator_entity_id: ent_01m1a761qy6fhy92p3q0638wwj
     access:
       availability: public
-      method: contact
-      url: https://manylayers.io/startup-program/
-    terms_url: https://manylayers.io/startup-program/
+      method: form
+      url: https://manylayers.io/talk-to-us/
     source_ids:
       - src_e20af7418a9594b332a6108a21879ad59732c9699e0d07d68787196be994b7e3
       - src_61887b7de1fc4e382694934502f9f2463c1d4f028f6af8d4dc1da2adad377957
+      - src_a87c6d4fb95f4bcd9e7cbb49cae8837c9cbc2430093883a8d90a62bbbcf231ce
