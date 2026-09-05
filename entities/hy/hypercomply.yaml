@@ -10,6 +10,7 @@ entity:
       valid_from: 2026-08-14T14:43:48.471Z
   category: legal-compliance
 profile:
+  summary: Security-questionnaire automation and trust-document sharing platform.
   description: HyperComply helps companies respond to security questionnaires and share security documentation through Trust Pages and Data Rooms.
   links:
     site: https://www.hypercomply.com
@@ -37,24 +38,23 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: 60% off the HyperComply Startup Package.
+          description: 60% off for startups
           kind: discount
           percentage:
             kind: exact
             basis_points: 6000
-          applies_to: HyperComply Startup Package
         - benefit_id: ben_02
-          description: Unlimited security questionnaire responses with a 3-day response SLA.
+          description: Unlimited security questionnaire responses
           kind: other
         - benefit_id: ben_03
-          description: A public Trust Page and Data Rooms for sharing security documentation.
+          description: Public Trust Page and Data Rooms
           kind: other
         - benefit_id: ben_04
           description: Flexible payment terms.
           kind: other
       consideration:
         kind: variable
-        description: Approved startups pay the remaining package price after the 60% discount.
+        description: Eligible startups receive the package for one low price.
     eligibility:
       rule:
         criterion_id: cri_01
