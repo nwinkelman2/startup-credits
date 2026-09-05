@@ -10,6 +10,7 @@ entity:
       valid_from: 2026-09-01T06:35:28.316Z
   category: ai-ml
 profile:
+  summary: General-purpose AI agent platform for multi-step digital work.
   description: Manus is a general-purpose artificial intelligence agent platform that carries out multi-step digital tasks for individuals and teams.
   links:
     site: https://manus.im/
@@ -91,8 +92,6 @@ offers:
     access:
       availability: referral
       method: other
-      url: https://events.manus.im/startups
       instructions: Ask a participating lead investor or accelerator for its Manus for Startups referral link; open applications are currently paused.
-    terms_url: https://events.manus.im/startups
     source_ids:
       - src_f66878a7fb571dd10ae7b4d72a516402513338010350ac0562d8b70b9bbb4f4a
