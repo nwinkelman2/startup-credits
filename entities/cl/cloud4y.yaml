@@ -37,12 +37,17 @@ offers:
       effective_from: 2026-09-01T10:54:53.039Z
     economics:
       consideration:
-        kind: none
+        kind: nonmonetary
+        description: A recipient must place the Cloud4Y logo and a link to Cloud4Y on the homepage of its website.
       benefits:
         - benefit_id: ben_01
           description: Up to $10,000 in Cloud4Y infrastructure resources
-          kind: free-service
-          service: Cloud4Y infrastructure resources
+          kind: credit
+          value:
+            amount:
+              currency: USD
+              minor_units: 1000000
+            kind: up-to
         - benefit_id: ben_02
           description: Access to Cloud4Y's ecosystem of partners and clients
           kind: other
