@@ -37,15 +37,13 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: Full Growth plan access at no cost during months one through six
+          description: $0 a month; the full product is free for six months.
           kind: free-service
-          service: ProductBridge Growth plan
           duration:
             kind: exact
             value: P6M
-        - applies_to: ProductBridge Growth plan during months seven through twelve
-          benefit_id: ben_02
-          description: 75% off the $59 monthly Growth plan list price during months seven through twelve
+        - benefit_id: ben_02
+          description: 75% off; $14 a month against the $59 list price during months 7–12.
           kind: discount
           percentage:
             basis_points: 7500
@@ -53,9 +51,8 @@ offers:
           duration:
             kind: exact
             value: P6M
-        - applies_to: ProductBridge Growth plan during months thirteen through eighteen
-          benefit_id: ben_03
-          description: 50% off the $59 monthly Growth plan list price during months thirteen through eighteen
+        - benefit_id: ben_03
+          description: 50% off; $29 a month against the $59 list price during months 13–18.
           kind: discount
           percentage:
             basis_points: 5000
@@ -63,9 +60,8 @@ offers:
           duration:
             kind: exact
             value: P6M
-        - applies_to: ProductBridge Growth plan during months nineteen through twenty-four
-          benefit_id: ben_04
-          description: 25% off the $59 monthly Growth plan list price during months nineteen through twenty-four
+        - benefit_id: ben_04
+          description: 25% off; $44 a month against the $59 list price during months 19–24.
           kind: discount
           percentage:
             basis_points: 2500
@@ -75,7 +71,7 @@ offers:
             value: P6M
       consideration:
         kind: variable
-        description: The startup pays $14 per month in months 7–12, $29 per month in months 13–18, and $44 per month in months 19–24; billing is monthly with no contract.
+        description: Nothing for the first six months; $14 a month for months 7–12, $29 for months 13–18, and $44 for months 19–24.
     eligibility:
       rule:
         kind: all
