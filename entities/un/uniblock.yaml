@@ -45,12 +45,9 @@ offers:
               currency: USD
               minor_units: 1000000
             kind: up-to
-        - benefit_id: ben_02
-          description: Engineering on call; Uniblock engineers monitor routing and respond when something breaks.
-          kind: other
       consideration:
-        kind: variable
-        description: The offer is an annual Uniblock plan with credits included; credits are applied once terms are set.
+        kind: unknown
+        description: Uniblock confirms fit, scopes the credits, and sets terms on a short call.
     eligibility:
       rule:
         criterion_id: cri_01
