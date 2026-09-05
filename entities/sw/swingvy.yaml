@@ -48,8 +48,7 @@ offers:
             basis_points: 5000
             kind: exact
       consideration:
-        kind: variable
-        description: "50% off Swingvy's all-in-one HR platform for one year."
+        kind: none
     eligibility:
       rule:
         criterion_id: cri_01
