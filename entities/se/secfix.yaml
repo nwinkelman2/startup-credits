@@ -10,6 +10,7 @@ entity:
       valid_from: 2026-09-01T12:00:00.000Z
   category: legal-compliance
 profile:
+  summary: Security and compliance automation software.
   description: Secfix provides security and compliance automation software for ISO 27001, SOC 2, TISAX, GDPR, and related requirements.
   links:
     site: https://www.secfix.com/
@@ -28,25 +29,18 @@ offers:
       effective_from: 2026-09-01T12:00:00.000Z
     economics:
       benefits:
-        - applies_to: The first year of Secfix security and compliance automation software
-          benefit_id: ben_01
-          description: 15% off the first year of Secfix
-          duration:
-            kind: exact
-            value: P1Y
-          kind: discount
-          percentage:
-            basis_points: 1500
-            kind: exact
+        - benefit_id: ben_01
+          description: 15% off the first year of Secfix security and compliance automation software.
+          kind: other
       consideration:
-        kind: variable
-        description: The startup pays the remaining discounted first-year price for the Secfix package agreed after consultation.
+        kind: unknown
+        description: The public offer page does not publish the payable Secfix price after the discount.
     eligibility:
       rule:
         criterion_id: cri_01
         kind: manual
         reason: vendor-discretion
-        statement: The applicant must qualify for Secfix's Google for Startups partnership offer following consultation.
+        statement: Google for Startups recipients may book Secfix's free consultation for the first-year offer.
     roles:
       terms_authority_entity_id: ent_01m1eghdw2yej94mz56n7he9pb
       access_operator_entity_id: ent_01m1eghdw2yej94mz56n7he9pb
