@@ -12,7 +12,7 @@ entity:
 profile:
   description: Appsmith is a platform for building internal applications and tools with visual components, data-source connections, and custom code.
   links:
-    site: https://www.appsmith.com
+    site: https://www.appsmith.com/startup-program
 sources:
   - source_id: src_1acf478a66e0d3a4d67b1be92a47b4bdd85739d2b2f5acddf284b7289661a7e7
     url: https://www.appsmith.com/startup-program
@@ -88,10 +88,9 @@ offers:
       terms_authority_entity_id: ent_6br01mq0rfb1v8bwz7xkd6tmaz
       access_operator_entity_id: ent_6br01mq0rfb1v8bwz7xkd6tmaz
     access:
-      availability: membership
+      availability: public
       instructions: Use the Join now link on Appsmith's public startup-program page to submit the enrollment form; Appsmith states that its team will schedule a call afterward.
       method: form
       url: https://www.appsmith.com/startup-program
-    terms_url: https://www.appsmith.com/startup-program
     source_ids:
       - src_1acf478a66e0d3a4d67b1be92a47b4bdd85739d2b2f5acddf284b7289661a7e7
