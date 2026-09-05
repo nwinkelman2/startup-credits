@@ -37,7 +37,7 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: Up to $10,000 in private-inference credits for GLM-5.3 and the full LibertAI model catalog.
+          description: Up to $10,000 in inference credits.
           kind: credit
           value:
             amount:
@@ -46,22 +46,16 @@ offers:
             kind: up-to
         - benefit_id: ben_02
           description: Migration support from the LibertAI team.
-          kind: free-service
-          service: Private-inference migration support
+          kind: other
       consideration:
-        kind: none
+        kind: unknown
+        description: The public Sovereign Program listing does not state whether any payment is required.
     eligibility:
       rule:
-        kind: all
-        rules:
-          - criterion_id: cri_01
-            kind: manual
-            reason: external-verification
-            statement: Applicant must be an early-stage team building on private inference.
-          - criterion_id: cri_02
-            kind: manual
-            reason: external-verification
-            statement: Applications are reviewed case by case and the company must be selected by LibertAI.
+        kind: manual
+        criterion_id: cri_01
+        reason: vendor-discretion
+        statement: Selected early-stage companies building on private inference are eligible.
     roles:
       terms_authority_entity_id: ent_01m1d5vpvbvxx3jbdjdd942b21
       access_operator_entity_id: ent_01m1d5vpvbvxx3jbdjdd942b21
