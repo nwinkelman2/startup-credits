@@ -39,7 +39,7 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: 50% off Lightdash Cloud or Pro for 12 months, worth up to USD 18,000
+          description: 50% off Lightdash Cloud or Pro for 12 months.
           duration:
             kind: exact
             value: P1Y
@@ -48,13 +48,14 @@ offers:
             basis_points: 5000
             kind: exact
         - benefit_id: ben_02
-          description: Personalized kickoff and training calls with the Lightdash data team
+          description: Kickoff and training calls with the Lightdash data team.
           kind: other
         - benefit_id: ben_03
-          description: Dedicated support channel with direct access to the product team
+          description: Expert support and direct access to the product team for feedback and beta features.
           kind: other
       consideration:
-        kind: none
+        kind: unknown
+        description: The public program page states that the plans are half-price but does not publish the resulting payable price.
     eligibility:
       rule:
         kind: all
@@ -81,7 +82,7 @@ offers:
     access:
       availability: public
       instructions: Use the application link published on the Lightdash for Startups page to contact the team and apply for the program.
-      method: form
+      method: contact
       url: https://www.lightdash.com/start
     source_ids:
       - src_12c5f5575a3dea6dd0d479f83e3a0f4bc3f3eb56f4f2e889301171fa04c8dcf1
