@@ -59,58 +59,17 @@ offers:
         kind: none
     eligibility:
       rule:
-        kind: all
-        rules:
-          - criterion_id: cri_01
-            fact: company.funding_stage
-            kind: predicate
-            operator: in
-            statement: The company is at pre-seed, seed, or Series A stage.
-            value:
-              type: string-set
-              values:
-                - pre-seed
-                - seed
-                - Series A
-          - criterion_id: cri_02
-            fact: company.funding_raised_usd
-            kind: predicate
-            operator: lt
-            statement: The company has raised less than $10 million in total.
-            value:
-              type: number
-              value: 10000000
-          - criterion_id: cri_03
-            fact: company.employee_count
-            kind: predicate
-            operator: lt
-            statement: The company has fewer than 50 people.
-            value:
-              type: number
-              value: 50
-          - criterion_id: cri_04
-            kind: manual
-            reason: external-verification
-            statement: The applicant is a founder or early data hire at the company.
-          - criterion_id: cri_05
-            kind: manual
-            reason: external-verification
-            statement: The company is backed by a leading accelerator or fund such as Y Combinator, Techstars, a16z, Sequoia, or a similar organization.
-          - criterion_id: cri_06
-            fact: applicant.is_new_customer
-            kind: predicate
-            operator: eq
-            statement: The company is new to Definite or still within its first 30 days.
-            value:
-              type: boolean
-              value: true
+        kind: manual
+        criterion_id: cri_01
+        reason: external-verification
+        statement: Definite reviews every application manually and admits applicants when most of its published eligibility checks fit.
     roles:
       terms_authority_entity_id: ent_qz0cyj53t5ng3yph5b5kfctrjv
       access_operator_entity_id: ent_qz0cyj53t5ng3yph5b5kfctrjv
     access:
       availability: public
       method: form
-      url: https://app.definite.app/register
+      url: https://www.definite.app/signup
       instructions: Create a Definite account and complete the in-product startup-program application for manual review.
     terms_url: https://www.definite.app/startups
     source_ids:
