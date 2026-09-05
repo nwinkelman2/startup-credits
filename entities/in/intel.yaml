@@ -10,6 +10,7 @@ entity:
       valid_from: 2026-09-01T16:28:30.533Z
   category: ai-ml
 profile:
+  summary: Accelerated-computing technology and support for AI developers and startups.
   description: Intel provides accelerated-computing technology and support for AI, analytics, HPC, and graphics developers and startups.
   links:
     site: https://www.intel.com
@@ -17,7 +18,7 @@ sources:
   - source_id: src_7685cd6666e6ef8edafd2be2de11ed67e1a26d48833d801a60ffbf0451271e0e
     url: https://www.intel.com
   - source_id: src_5954b023c31a215b373c3a1412ea42454096f2559f0e7f3a73f6d47d4cec84e1
-    url: https://software.seek.intel.com/intel-liftoff
+    url: https://community.intel.com/t5/Blogs/Tech-Innovation/Artificial-Intelligence-AI/How-Intel-Liftoff-Accelerates-AI-Startups/post/1690460
 programs:
   - program_id: prg_01m1ewsn8dq8jb03tzgbm2t8r5
     program_slug: intel-liftoff
@@ -39,40 +40,29 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: Technical expertise and support intended to accelerate time to market.
+          description: One-on-one guidance from Intel AI engineers to optimize and scale AI workloads.
           kind: other
         - benefit_id: ben_02
-          description: Access to cutting-edge technology for startup innovation.
+          description: Intel Tiber AI Cloud credits and early access to AI-optimized cloud infrastructure.
           kind: other
         - benefit_id: ben_03
-          description: Go-to-market support intended to help participating startups stand out.
+          description: Co-marketing through technical blogs, event showcases, and social amplification.
           kind: other
       consideration:
         kind: none
     eligibility:
       rule:
-        kind: all
-        rules:
-          - criterion_id: cri_01
-            kind: manual
-            reason: external-verification
-            statement: The applicant is an early-stage technology startup.
-          - criterion_id: cri_02
-            kind: manual
-            reason: external-verification
-            statement: The startup is building innovation based on accelerated computing in AI, analytics, HPC, or graphics.
-          - criterion_id: cri_03
-            kind: manual
-            reason: vendor-discretion
-            statement: Intel reviews the application and decides admission to the program.
+        criterion_id: cri_01
+        kind: manual
+        reason: external-verification
+        statement: The applicant must be an early-stage AI startup; Intel determines admission to the program.
     roles:
       terms_authority_entity_id: ent_01m1ewsn83krhm70120c2aryvr
       access_operator_entity_id: ent_01m1ewsn83krhm70120c2aryvr
     access:
       availability: public
-      method: form
-      url: https://software.seek.intel.com/intel-liftoff
-      instructions: Complete Intel's application form; Intel says to allow up to seven days for processing.
-    terms_url: https://software.seek.intel.com/intel-liftoff
+      method: other
+      url: https://community.intel.com/t5/Blogs/Tech-Innovation/Artificial-Intelligence-AI/How-Intel-Liftoff-Accelerates-AI-Startups/post/1690460
+      instructions: Follow Intel's Apply today direction from the current Intel Liftoff program article.
     source_ids:
       - src_5954b023c31a215b373c3a1412ea42454096f2559f0e7f3a73f6d47d4cec84e1
