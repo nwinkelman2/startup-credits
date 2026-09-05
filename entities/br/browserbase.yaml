@@ -8,8 +8,9 @@ entity:
     - value: browserbase.com
       role: primary
       valid_from: 2026-09-02T09:07:14.036Z
-  category: data-analytics
+  category: apis-integration
 profile:
+  summary: Cloud browser infrastructure, web data APIs, model routing, and agent tooling.
   description: Browserbase provides cloud browsers, web data APIs, model routing, session observability, and the Stagehand SDK for browser agents and web automation.
   links:
     site: https://www.browserbase.com
@@ -28,11 +29,10 @@ offers:
       effective_from: 2026-09-02T09:07:14.036Z
     economics:
       consideration:
-        kind: unknown
-        description: Browserbase does not publish a separate price or other consideration for redeeming the Founder Pack offer.
+        kind: none
       benefits:
         - benefit_id: ben_primary
-          description: Browserbase credits; the public redemption page does not state the credit amount or duration.
+          description: ElevenLabs Founder Pack credits for Browserbase
           kind: other
     eligibility:
       rule:
