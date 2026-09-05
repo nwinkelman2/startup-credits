@@ -36,9 +36,8 @@ offers:
       effective_from: 2026-09-01T05:24:00.000Z
     economics:
       benefits:
-        - applies_to: Uome platform
-          benefit_id: ben_01
-          description: 50% off the first year of Uome.
+        - benefit_id: ben_01
+          description: Get 50% off the first year.
           duration:
             kind: exact
             value: P1Y
@@ -48,7 +47,7 @@ offers:
             basis_points: 5000
       consideration:
         kind: variable
-        description: The company pays the remaining discounted Uome charges for the services it uses.
+        description: Pay for what you use with no hidden fees.
     eligibility:
       rule:
         kind: all
