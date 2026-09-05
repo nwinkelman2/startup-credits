@@ -10,6 +10,7 @@ entity:
       valid_from: 2026-09-01T12:00:00.000Z
   category: hosting-infra
 profile:
+  summary: Hosting, cloud, server, domain, and managed infrastructure services.
   description: Combell provides domain, web hosting, server, cloud, and managed infrastructure services.
   links:
     site: https://www.combell.com/en/
@@ -38,16 +39,15 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: One year of all-in hosting services at no charge
+          description: One year all-in hosting services
           duration:
             kind: exact
             value: P1Y
           kind: free-service
-          service: Tailored Combell hosting infrastructure
+          service: hosting services
         - benefit_id: ben_02
-          description: Guidance from a dedicated advisory team that designs infrastructure able to grow with the startup
-          kind: free-service
-          service: Dedicated hosting advisory support
+          description: A dedicated advisory team guides selected startups through their growth.
+          kind: other
       consideration:
         kind: none
     eligibility:
