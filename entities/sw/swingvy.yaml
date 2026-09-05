@@ -48,8 +48,8 @@ offers:
             basis_points: 5000
             kind: exact
       consideration:
-        kind: variable
-        description: Approved startups use Swingvy's 50%-off startup programme pricing for one year.
+        kind: unknown
+        description: Swingvy publishes a 50% startup discount but not the resulting subscription price.
     eligibility:
       rule:
         kind: all
