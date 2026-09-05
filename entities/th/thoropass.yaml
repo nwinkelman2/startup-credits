@@ -37,15 +37,14 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          applies_to: Thoropass compliance platform and services
-          description: 15% off Thoropass through the JPM Startup Offers program.
+          description: Enjoy 15% off special pricing exclusively for JPM Startup Offers.
           kind: discount
           percentage:
             kind: exact
             basis_points: 1500
       consideration:
-        kind: variable
-        description: The startup pays the price remaining after the 15% discount for the selected Thoropass engagement.
+        kind: unknown
+        description: The source does not state the price payable after applying the 15% discount.
     eligibility:
       rule:
         criterion_id: cri_01
