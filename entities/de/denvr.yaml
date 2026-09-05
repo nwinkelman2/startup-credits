@@ -28,10 +28,10 @@ programs:
 offers:
   - offer_id: off_xhtwqp34z0adstgb4jybddwfqx
     program_id: prg_2npvvcyhws75xzmkfmfdjb9ssm
-    offer_slug: initial-one-thousand-dollar-credit
+    offer_slug: ai-ascend-compute-credits
     offer_slug_aliases: []
-    title: USD 1,000 in initial Denvr AI Compute credits
-    summary: Approved early-stage AI startups, research teams, AI-driven enterprises, and other qualified AI builders receive an initial USD 1,000 in Denvr AI Compute credits.
+    title: USD 1,000 initial credit and up to USD 500,000 in Denvr production credits
+    summary: Approved AI builders receive an initial USD 1,000 in Denvr AI Compute credits and may receive up to USD 500,000 in production credits based on needs and potential.
     lifecycle:
       status: active
       effective_from: 2026-09-01T08:40:32.9428776Z
@@ -45,6 +45,14 @@ offers:
               currency: USD
               minor_units: 100000
             kind: exact
+        - benefit_id: ben_02
+          description: Up to USD 500,000 in production credits based on the approved team's needs and potential
+          kind: credit
+          value:
+            amount:
+              currency: USD
+              minor_units: 50000000
+            kind: up-to
       consideration:
         kind: none
     eligibility:
@@ -65,50 +73,6 @@ offers:
     access:
       availability: public
       instructions: Complete and submit the Denvr AI Ascend application form. Denvr evaluates the project's AI focus and resource requirements before onboarding approved applicants.
-      method: form
-      url: https://www.denvr.com/ai-ascend
-    terms_url: https://www.denvr.com/ai-ascend
-    source_ids:
-      - src_2018463513f271e5a693efb8d69aeb50658ce9a4f17031fbc70efe61a790fc3d
-  - offer_id: off_sypx827dn1gmjj1cgek6wtxbb0
-    program_id: prg_2npvvcyhws75xzmkfmfdjb9ssm
-    offer_slug: up-to-five-hundred-thousand-production-credits
-    offer_slug_aliases: []
-    title: Up to USD 500,000 in Denvr production credits
-    summary: Eligible AI Ascend teams can receive up to USD 500,000 in Denvr AI Compute production credits based on their needs and potential.
-    lifecycle:
-      status: active
-      effective_from: 2026-09-01T08:40:32.9428776Z
-    economics:
-      benefits:
-        - benefit_id: ben_01
-          description: Up to USD 500,000 in production credits based on the approved team's needs and potential
-          kind: credit
-          value:
-            amount:
-              currency: USD
-              minor_units: 50000000
-            kind: up-to
-      consideration:
-        kind: none
-    eligibility:
-      rule:
-        kind: all
-        rules:
-          - criterion_id: cri_01
-            kind: manual
-            reason: vendor-discretion
-            statement: The applicant must be an approved Denvr AI Ascend team building or scaling AI workloads.
-          - criterion_id: cri_02
-            kind: manual
-            reason: vendor-discretion
-            statement: Denvr determines the production-credit amount based on the team's needs and potential.
-    roles:
-      terms_authority_entity_id: ent_0mxg2tn5q2cvz2dnr0z73jvxyw
-      access_operator_entity_id: ent_0mxg2tn5q2cvz2dnr0z73jvxyw
-    access:
-      availability: public
-      instructions: Apply through the Denvr AI Ascend form and describe the applicant's AI project and expected resource requirements for Denvr's review.
       method: form
       url: https://www.denvr.com/ai-ascend
     terms_url: https://www.denvr.com/ai-ascend
