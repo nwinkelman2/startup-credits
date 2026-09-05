@@ -10,6 +10,7 @@ entity:
       valid_from: 2026-09-01T10:54:53.039Z
   category: hosting-infra
 profile:
+  summary: Managed cloud infrastructure, virtual servers, storage, and disaster recovery.
   description: Cloud4Y provides managed cloud infrastructure, virtual servers, storage, disaster recovery, and related services.
   links:
     site: https://www.cloud4y.ru/en/
@@ -36,7 +37,7 @@ offers:
       effective_from: 2026-09-01T10:54:53.039Z
     economics:
       consideration:
-        kind: variable
+        kind: unknown
         description: A recipient must place the Cloud4Y logo and a link to Cloud4Y on the homepage of its website.
       benefits:
         - benefit_id: ben_01
