@@ -10,6 +10,7 @@ entity:
       valid_from: 2026-09-01T11:00:00.000Z
   category: hosting-infra
 profile:
+  summary: Managed, performance-focused cloud hosting for websites and web applications.
   description: Servebolt provides managed, performance-focused cloud hosting for websites and web applications.
   links:
     site: https://servebolt.com/
@@ -51,7 +52,7 @@ offers:
           kind: other
       consideration:
         kind: variable
-        description: The startup pays the remaining discounted price of its selected eligible Servebolt plan.
+        description: The startup receives 50% off its selected eligible Servebolt plan for one year.
     eligibility:
       rule:
         kind: all
