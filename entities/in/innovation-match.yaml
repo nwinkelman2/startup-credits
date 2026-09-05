@@ -38,7 +38,7 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: 50% startup discount on the PRIME subscription.
+          description: "50% STARTUP DISCOUNT ON PRIME SUBSCRIPTION, only 299€/month."
           kind: discount
           percentage:
             kind: exact
