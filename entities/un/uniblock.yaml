@@ -5,17 +5,18 @@ entity:
   slug_aliases: []
   name: Uniblock
   domains:
-    - value: uniblock.website
+    - value: uniblock.dev
       role: primary
       valid_from: 2026-09-01T05:03:00.000Z
   category: apis-integration
 profile:
+  summary: One API, credit balance, and billing layer for blockchain data providers.
   description: Uniblock provides one API key, credit balance, and billing layer for routing requests across blockchain-data providers.
   links:
-    site: https://uniblock.website/
+    site: https://uniblock.dev/
 sources:
   - source_id: src_1f59b9d938be567a5b8c22f9747b2e98b8196f819b668a2fb20208051e9f821c
-    url: https://uniblock.website/startup-program
+    url: https://uniblock.dev/startup-program
 programs:
   - program_id: prg_kk19nyhaxxp1g5qba9czjvmnnd
     program_slug: uniblock-startup-program
@@ -72,8 +73,8 @@ offers:
     access:
       availability: public
       method: form
-      url: https://uniblock.website/startup-program
+      url: https://uniblock.dev/startup-program
       instructions: Submit the application form on the startup-program page and complete the short fit-and-scope call.
-    terms_url: https://uniblock.website/startup-program
+    terms_url: https://uniblock.dev/startup-program
     source_ids:
       - src_1f59b9d938be567a5b8c22f9747b2e98b8196f819b668a2fb20208051e9f821c
