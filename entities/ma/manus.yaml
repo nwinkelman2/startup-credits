@@ -45,7 +45,8 @@ offers:
           kind: free-service
           service: Manus Team subscription for up to 20 seats
       consideration:
-        kind: none
+        kind: unknown
+        description: The published startup page does not state a separate price for approved applicants.
     eligibility:
       rule:
         kind: all
