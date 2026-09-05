@@ -10,12 +10,15 @@ entity:
       valid_from: 2026-09-01T04:10:00.000Z
   category: finance-accounting
 profile:
+  summary: AI-powered workflow automation for finance operations.
   description: Abstra provides an AI-powered workflow platform for automating finance operations, including credit analysis, account onboarding, and revenue operations.
   links:
     site: https://www.abstra.io/
 sources:
   - source_id: src_b59b5dc67706cdc85dce397690848f309c627e1b45fd6b064a92729a19275ba7
     url: https://www.abstra.io/en/pricing
+  - source_id: src_30027b4ff6f5c7e8a37a4434091d9b1e372b3ae75ab9ec80f842a5d4ea9fa1cf
+    url: https://www.abstra.io/assets/app-CrWDFeom.js
 programs:
   - program_id: prg_01m1djmv9d9hvyq3fbxn10hkaj
     program_slug: abstra-startup-discount-program
@@ -24,6 +27,7 @@ programs:
     summary: Abstra gives qualifying early-stage companies discounted Professional-plan access plus startup support, community access, and growth consulting.
     source_ids:
       - src_b59b5dc67706cdc85dce397690848f309c627e1b45fd6b064a92729a19275ba7
+      - src_30027b4ff6f5c7e8a37a4434091d9b1e372b3ae75ab9ec80f842a5d4ea9fa1cf
 offers:
   - offer_id: off_01m1djmv9ec4k01e2wj0ber7f9
     program_id: prg_01m1djmv9d9hvyq3fbxn10hkaj
@@ -57,7 +61,7 @@ offers:
           kind: other
       consideration:
         kind: variable
-        description: The startup pays the remaining 50% of the Abstra Professional plan price during the six-month discount period.
+        description: The Professional plan has custom pricing; approved startups receive the stated 50% discount for six months.
     eligibility:
       rule:
         kind: all
@@ -89,3 +93,4 @@ offers:
     terms_url: https://www.abstra.io/en/pricing
     source_ids:
       - src_b59b5dc67706cdc85dce397690848f309c627e1b45fd6b064a92729a19275ba7
+      - src_30027b4ff6f5c7e8a37a4434091d9b1e372b3ae75ab9ec80f842a5d4ea9fa1cf
