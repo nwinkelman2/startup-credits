@@ -48,27 +48,25 @@ offers:
               minor_units: 2000000
             kind: up-to
         - benefit_id: ben_02
-          description: Dedicated field engineers provide application architecture and hands-on technical support
-          kind: free-service
-          service: Anyscale field-engineering support
+          description: Dedicated field engineers support application architecture design and provide hands-on technical support.
+          kind: other
       consideration:
-        kind: none
+        kind: unknown
+        description: The source does not state separate consideration for program benefits.
     eligibility:
       rule:
         criterion_id: cri_01
         kind: manual
         reason: vendor-discretion
-        statement: Anyscale reviews the applicant's company and may consider its funding, technical maturity,
-          cloud infrastructure, cloud spend, and existing cloud-provider credits before requesting a formal application.
+        statement: Anyscale reviews applicants for its AI Startup Program.
     roles:
       terms_authority_entity_id: ent_tx75drh0kf2nt9jgkwnf4a4n83
       access_operator_entity_id: ent_tx75drh0kf2nt9jgkwnf4a4n83
     access:
       availability: public
-      method: form
-      url: https://www.anyscale.com/startup
-      instructions: Submit the public application form; Anyscale states that its sales team follows up within
-        24 to 48 hours to gather details and provide a qualification form.
+      method: contact
+      url: https://www.anyscale.com/contact-sales
+      instructions: Submit Anyscale's contact form to speak with its team about the AI Startup Program.
     terms_url: https://www.anyscale.com/startup
     source_ids:
       - src_9d22e9a81e169dd111260594c7d7133c129aa4779c50c314dcd13324ac474920
