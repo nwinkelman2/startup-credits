@@ -46,14 +46,14 @@ offers:
               minor_units: 1000000
             kind: up-to
       consideration:
-        kind: unknown
-        description: Uniblock confirms fit, scopes the credits, and sets terms on a short call.
+        kind: variable
+        description: "One offer: the annual Uniblock plan, with credits included."
     eligibility:
       rule:
         criterion_id: cri_01
         kind: manual
         reason: external-verification
-        statement: Applicants must be early-stage teams building on blockchain data with a product live or in active development; Uniblock confirms fit and scopes the credits on a short call.
+        statement: Applicants must be early-stage teams building on blockchain data with a product live or in active development.
     roles:
       terms_authority_entity_id: ent_kf66ej4ar5a1vk5f7akf4qpcm6
       access_operator_entity_id: ent_kf66ej4ar5a1vk5f7akf4qpcm6
