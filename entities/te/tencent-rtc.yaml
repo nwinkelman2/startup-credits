@@ -5,17 +5,18 @@ entity:
   slug_aliases: []
   name: Tencent RTC
   domains:
-    - value: trtc.tencentcloud.com
+    - value: trtc.io
       role: primary
       valid_from: 2026-09-01T09:56:04.972Z
   category: communication
 profile:
+  summary: Real-time audio, video, and messaging SDKs and APIs.
   description: Tencent RTC provides real-time communication SDKs and APIs for adding interactive audio, video, and messaging experiences to applications.
   links:
-    site: https://trtc.tencentcloud.com
+    site: https://trtc.io
 sources:
   - source_id: src_ca4a9cd9271e96f755c712db5b133ecb1f5637101da29bbeaf229a52bb0bba8b
-    url: https://trtc.tencentcloud.com/start-up
+    url: https://trtc.io/start-up
 programs:
   - program_id: prg_22antv2gn834pc2qea7gn70svs
     program_slug: tencent-rtc-startups-program
@@ -37,7 +38,6 @@ offers:
     economics:
       consideration:
         kind: unknown
-        description: The public program page does not state whether Tencent RTC requires any separate payment or other consideration.
       benefits:
         - benefit_id: ben_01
           description: Free Tencent RTC credits worth up to $3,000
@@ -57,10 +57,9 @@ offers:
       terms_authority_entity_id: ent_qy7jsrqc451qby3qnyy47jamm9
       access_operator_entity_id: ent_qy7jsrqc451qby3qnyy47jamm9
     access:
-      availability: membership
+      availability: public
       instructions: Complete the public Tencent RTC Startups Program questionnaire; Tencent RTC states that it will respond within 48 hours.
       method: form
-      url: https://trtc.tencentcloud.com/start-up
-    terms_url: https://trtc.tencentcloud.com/start-up
+      url: https://trtc.io/start-up
     source_ids:
       - src_ca4a9cd9271e96f755c712db5b133ecb1f5637101da29bbeaf229a52bb0bba8b
