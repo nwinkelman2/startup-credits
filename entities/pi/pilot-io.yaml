@@ -38,17 +38,15 @@ offers:
       benefits:
         - benefit_id: ben_01
           description: $30,000 in credits toward Pilot's software subscription for the first year.
-          duration:
-            kind: exact
-            value: P1Y
           kind: credit
           value:
             amount:
               currency: USD
               minor_units: 3000000
-            kind: exact
+            kind: up-to
       consideration:
-        kind: none
+        kind: unknown
+        description: The public page calls this a discounted rate but does not publish any amount payable after applying the credits.
     eligibility:
       rule:
         kind: all
@@ -91,7 +89,7 @@ offers:
     access:
       availability: public
       method: form
-      url: https://pilotproduct.typeform.com/to/R7Pngyrv
+      url: https://pilotproduct.typeform.com/to/bCLn5g0J
       instructions: Complete Pilot's startup application form for eligibility review.
     terms_url: https://pilot.io/startup-pricing
     source_ids:
