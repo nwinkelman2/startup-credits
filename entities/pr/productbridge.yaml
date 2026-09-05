@@ -39,6 +39,7 @@ offers:
         - benefit_id: ben_01
           description: $0 a month; the full product is free for six months.
           kind: free-service
+          service: ProductBridge Growth plan
           duration:
             kind: exact
             value: P6M
