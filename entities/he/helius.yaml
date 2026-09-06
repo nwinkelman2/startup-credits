@@ -36,21 +36,21 @@ offers:
       effective_from: 2026-09-01T10:04:16.914Z
     economics:
       consideration:
-        kind: unknown
-        description: The public Launchpad page does not establish whether separate consideration is required.
+        kind: variable
+        description: If usage exceeds the Business plan's 100M credit limit, additional credits are charged at the standard rate of $5 per million credits.
       benefits:
         - benefit_id: ben_01
-          description: Eight free months of the Helius Business plan, stated by Helius as a $4,000 value
+          description: 8 months free Business plan ($4K value)
           duration:
             kind: exact
             value: P8M
           kind: free-service
-          service: Helius Business plan
+          service: Business plan
         - benefit_id: ben_02
-          description: Mentoring from experienced operators, strategic advice, and access to private founder groups, workshops, and office hours
+          description: Expert advice from veteran operators across marketing, sales, talent, operations, and design.
           kind: other
         - benefit_id: ben_03
-          description: Introductions to investors, customers, talent, and strategic advisors
+          description: Warm introductions to investors, marquee customers, talent, and strategic advisors.
           kind: other
     eligibility:
       rule:
@@ -62,7 +62,7 @@ offers:
       terms_authority_entity_id: ent_hxw819qwwsbkwpnet67tkm2e8j
       access_operator_entity_id: ent_hxw819qwwsbkwpnet67tkm2e8j
     access:
-      availability: membership
+      availability: public
       instructions: Submit the Helius Startup Launchpad application from the public program page.
       method: form
       url: https://www.helius.dev/startup-launchpad
