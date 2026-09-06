@@ -11,7 +11,7 @@ entity:
   category: ai-ml
 profile:
   summary: AI cloud compute, inference, storage, and private infrastructure services.
-  description: Denvr provides GPU compute, AI inference, data systems, clusters, preconfigured machine-learning environments, APIs, and private AI infrastructure from sovereign data centers in Canada and the United States.
+  description: Denvr provides high-performance AI compute, inference, private AI infrastructure, flexible deployment, and expert support.
   links:
     site: https://www.denvr.com
 sources:
@@ -57,16 +57,10 @@ offers:
         kind: none
     eligibility:
       rule:
-        kind: all
-        rules:
-          - criterion_id: cri_01
-            kind: manual
-            reason: vendor-discretion
-            statement: The applicant must be an early-stage AI startup, a research and development team running real-world AI workloads, an AI-driven enterprise, or another qualified team building and scaling AI applications.
-          - criterion_id: cri_02
-            kind: manual
-            reason: vendor-discretion
-            statement: Denvr must approve the project based on alignment with program goals, including AI development focus and resource requirements.
+        criterion_id: cri_01
+        kind: manual
+        reason: vendor-discretion
+        statement: Denvr reviews early-stage AI startups, research and development teams running real-world AI workloads, AI-driven enterprises, and other qualified teams building and scaling AI applications for alignment with AI-development focus and resource requirements.
     roles:
       terms_authority_entity_id: ent_0mxg2tn5q2cvz2dnr0z73jvxyw
       access_operator_entity_id: ent_0mxg2tn5q2cvz2dnr0z73jvxyw
