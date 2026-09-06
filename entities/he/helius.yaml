@@ -10,6 +10,7 @@ entity:
       valid_from: 2026-09-01T10:04:16.914Z
   category: apis-integration
 profile:
+  summary: Helius provides Solana infrastructure and developer tooling, including RPC, data, streaming, and transaction-delivery services.
   description: Helius provides Solana infrastructure and developer tooling, including RPC, data, streaming, and transaction-delivery services.
   links:
     site: https://www.helius.dev
@@ -37,7 +38,6 @@ offers:
     economics:
       consideration:
         kind: variable
-        description: If usage exceeds the Business plan's 100M credit limit, additional credits are charged at the standard rate of $5 per million credits.
       benefits:
         - benefit_id: ben_01
           description: 8 months free Business plan ($4K value)
@@ -46,12 +46,6 @@ offers:
             value: P8M
           kind: free-service
           service: Business plan
-        - benefit_id: ben_02
-          description: Expert advice from veteran operators across marketing, sales, talent, operations, and design.
-          kind: other
-        - benefit_id: ben_03
-          description: Warm introductions to investors, marquee customers, talent, and strategic advisors.
-          kind: other
     eligibility:
       rule:
         criterion_id: cri_01
