@@ -30,7 +30,7 @@ offers:
     program_id: prg_01m1d4ngpyad4nqfbgg8tjsaw1
     offer_slug: free-ghostly-solutions-for-one-year
     offer_slug_aliases: []
-    title: Free Ghostly Solutions for One Year
+    title: Enterprise Security Free for One Year
     summary: Eligible startups receive full access to Ghostly Solutions' enterprise security products free for one year, with no obligation to renew or pay afterward.
     lifecycle:
       status: active
@@ -43,7 +43,7 @@ offers:
             kind: exact
             value: P1Y
           kind: free-service
-          service: Ghostly Solutions enterprise security products
+          service: "Ghostly Solutions' enterprise security products"
       consideration:
         kind: none
     eligibility:
