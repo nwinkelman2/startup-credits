@@ -10,6 +10,7 @@ entity:
       valid_from: 2026-08-31T00:00:00.000Z
   category: auth-security
 profile:
+  summary: Automated web, API, and cloud application security for startups.
   description: Cyber Chief provides automated web application, API, and cloud security testing with on-demand security coaching.
   links:
     site: https://www.cyberchief.ai
@@ -57,8 +58,8 @@ offers:
             basis_points: 3500
             kind: exact
       consideration:
-        kind: unknown
-        description: Up to 75% off the first-year subscription and 35% off the second-year subscription.
+        kind: variable
+        description: Choose from either the Startup or Growth subscription package.
     eligibility:
       rule:
         kind: all
