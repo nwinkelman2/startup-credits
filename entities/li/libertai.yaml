@@ -38,6 +38,7 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
+          description: Selected companies can receive LibertAI inference credits.
           kind: credit
           value:
             amount:
@@ -45,9 +46,11 @@ offers:
               minor_units: 1000000
             kind: up-to
         - benefit_id: ben_02
+          description: Selected companies can receive migration support from LibertAI.
           kind: other
       consideration:
         kind: unknown
+        description: The cited source does not establish separate consideration beyond the offer terms.
     eligibility:
       rule:
         kind: manual
