@@ -10,6 +10,7 @@ entity:
       valid_from: 2026-09-01T04:36:00.000Z
   category: devtools-other
 profile:
+  summary: Documentation platform for publishing product documentation, API references, and AI-assisted reader support.
   description: Relevate is a documentation platform for publishing product documentation, API references, and AI-assisted reader support.
   links:
     site: https://relevate.app/
