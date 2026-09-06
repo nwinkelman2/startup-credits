@@ -10,6 +10,7 @@ entity:
       valid_from: 2026-08-30T23:36:00Z
   category: data-analytics
 profile:
+  summary: Business-intelligence platform for governed metrics, dashboards, and self-service analytics.
   description: Lightdash is a business-intelligence platform that turns dbt projects into governed metrics, dashboards, and self-service analytics for teams.
   links:
     site: https://www.lightdash.com/
@@ -55,7 +56,6 @@ offers:
           kind: other
       consideration:
         kind: unknown
-        description: The public program page states that the plans are half-price but does not publish the resulting payable price.
     eligibility:
       rule:
         kind: all
