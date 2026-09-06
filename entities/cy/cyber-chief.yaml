@@ -58,6 +58,7 @@ offers:
             kind: exact
       consideration:
         kind: unknown
+        description: Up to 75% off the first-year subscription and 35% off the second-year subscription.
     eligibility:
       rule:
         kind: all
