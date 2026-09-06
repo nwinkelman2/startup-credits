@@ -37,9 +37,8 @@ offers:
       effective_from: 2026-09-01T08:35:09.7904464Z
     economics:
       benefits:
-        - applies_to: SuprSend Developer or Growth plan
-          benefit_id: ben_01
-          description: 100% off the selected Developer or Growth plan for the first three months after signup
+        - benefit_id: ben_01
+          description: 3 months free access to the platform after signup
           duration:
             kind: exact
             value: P3M
@@ -47,9 +46,8 @@ offers:
           percentage:
             basis_points: 10000
             kind: exact
-        - applies_to: SuprSend Developer or Growth plan
-          benefit_id: ben_02
-          description: 50% off the selected Developer or Growth plan for the following three months
+        - benefit_id: ben_02
+          description: 50% discount applied for another 3 months
           duration:
             kind: exact
             value: P3M
@@ -58,8 +56,8 @@ offers:
             basis_points: 5000
             kind: exact
       consideration:
-        kind: unknown
-        description: The published offer specifies a 50% discount for months four through six without stating a fixed resulting price.
+        kind: variable
+        description: The startup program offers are billed monthly.
     eligibility:
       rule:
         criterion_id: cri_01
