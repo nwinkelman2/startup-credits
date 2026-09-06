@@ -54,8 +54,8 @@ offers:
           kind: free-service
           service: Done-with-you Launch Sprint
       consideration:
-        kind: unknown
-        description: The cited source does not establish separate consideration beyond the offer terms.
+        kind: variable
+        description: Founding-member pricing is locked for 12 months once you convert.
     eligibility:
       rule:
         criterion_id: cri_01
