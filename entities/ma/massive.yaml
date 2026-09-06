@@ -38,12 +38,10 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: 1 TB per month of residential proxy bandwidth through the Web Access API, free for three months
           duration:
             kind: exact
             value: P3M
           kind: free-service
-          service: Massive Web Access API with 1 TB of residential proxy bandwidth per month
       consideration:
         kind: none
     eligibility:
