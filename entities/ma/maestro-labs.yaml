@@ -47,6 +47,7 @@ offers:
             basis_points: 7500
       consideration:
         kind: unknown
+        description: Get 75% off for 11 months if you qualify.
     eligibility:
       rule:
         kind: all
