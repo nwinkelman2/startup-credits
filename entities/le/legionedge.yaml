@@ -10,6 +10,7 @@ entity:
       valid_from: 2026-08-17T01:43:29.909Z
   category: ai-ml
 profile:
+  summary: AI research lab building protocols, datasets, and efficient methods for intelligent applications.
   description: LegionEdge is an AI research lab building protocols, datasets, and efficient methods for intelligent applications.
   links:
     site: https://legionedge.ai
