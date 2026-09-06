@@ -36,9 +36,11 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
+          description: Approved startups receive a custom Optibase subscription discount code for one year.
           kind: other
       consideration:
         kind: unknown
+        description: The cited source does not establish separate consideration beyond the offer terms.
     eligibility:
       rule:
         kind: all
