@@ -10,16 +10,14 @@ entity:
       valid_from: 2026-09-02T09:56:25.030Z
   category: devtools-other
 profile:
-  description: DuploCloud provides a DevOps agent platform for building and operating platform-engineering workflows with automation, governance, and cloud infrastructure controls.
+  description: DuploCloud is an agentic DevOps automation platform for deployments, migrations, observability, security, compliance, and infrastructure operations.
   links:
     site: https://duplocloud.com
 sources:
   - source_id: src_f3df0ce22c2810b9a2a6fa5439f60940ce64e93584ac73cbe9677856c73f0a54
-    url: https://duplocloud.com/
+    url: https://docs.duplocloud.com/docs
   - source_id: src_3b477bb5105e1899f70428a00799ec88fb0b2e2a95e997bb96463570c040dffc
     url: https://cloud.google.com/startup/perks
-  - source_id: src_dd2a2b67181f37c2f076b822b1f4d8e763439b64a670ff0f2710513b415f97b7
-    url: https://docs.google.com/forms/d/1YYqh23ulfT_Rx2ftcGm4M6Xtxgau42D1yb4iUyEPtbc/viewform
 programs: []
 offers:
   - offer_id: off_01m1grrr613q6nqa8nezwjj8bq
@@ -53,7 +51,6 @@ offers:
     access:
       availability: membership
       method: form
-      url: https://docs.google.com/forms/d/1YYqh23ulfT_Rx2ftcGm4M6Xtxgau42D1yb4iUyEPtbc/viewform
+      url: https://cloud.google.com/startup/perks
     source_ids:
       - src_3b477bb5105e1899f70428a00799ec88fb0b2e2a95e997bb96463570c040dffc
-      - src_dd2a2b67181f37c2f076b822b1f4d8e763439b64a670ff0f2710513b415f97b7
