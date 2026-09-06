@@ -44,8 +44,8 @@ offers:
             kind: exact
             basis_points: 2500
       consideration:
-        kind: unknown
-        description: Discounted annual-plan pricing applies.
+        kind: variable
+        description: The startup pays the discounted annual price of its selected Userback plan.
     eligibility:
       rule:
         kind: manual
