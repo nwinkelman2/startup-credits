@@ -10,6 +10,7 @@ entity:
       valid_from: 2026-08-31T00:00:00.000Z
   category: crm-sales
 profile:
+  summary: ZeroPipeline provides an AI-powered CRM for lead discovery, contact enrichment, sales outreach, and pipeline management.
   description: ZeroPipeline is an AI-powered CRM for lead discovery, contact enrichment, sales outreach, and pipeline management.
   links:
     site: https://zeropipeline.ainative.studio
