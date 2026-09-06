@@ -38,7 +38,7 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: $30,000 in Viam platform credits, distributed as $2,500 per month for 12 months; unused monthly credits expire and do not roll over.
+          description: $30,000 in platform credits
           duration:
             kind: exact
             value: P1Y
@@ -49,10 +49,10 @@ offers:
               minor_units: 3000000
             kind: exact
         - benefit_id: ben_02
-          description: Scheduled time with Viam engineers for architecture, roadmap, and technical guidance.
+          description: Dedicated time with Viam Engineers
           kind: other
         - benefit_id: ben_03
-          description: Direct access to Viam's Forward Deployed Engineering team through a shared Slack channel.
+          description: Direct access to Viam's Forward Deployed Engineering team via Slack
           kind: other
       consideration:
         kind: none
