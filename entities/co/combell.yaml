@@ -10,8 +10,8 @@ entity:
       valid_from: 2026-09-01T12:00:00.000Z
   category: hosting-infra
 profile:
-  summary: Hosting, cloud, server, domain, and managed infrastructure services.
-  description: Combell provides domain, web hosting, server, cloud, and managed infrastructure services.
+  summary: Hosting provider supporting startup projects in the Benelux.
+  description: Combell supports promising startup business initiatives in SaaS, e-commerce, and mobile hosting.
   links:
     site: https://www.combell.com/en/
 sources:
@@ -46,7 +46,7 @@ offers:
           kind: free-service
           service: hosting services
         - benefit_id: ben_02
-          description: A dedicated advisory team guides selected startups through their growth.
+          description: A dedicated advisory team will guide our Cloud Angels from A to Z and will craft a tailored hosting infrastructure that grows along with their success.
           kind: other
       consideration:
         kind: none
