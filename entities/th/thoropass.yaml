@@ -10,6 +10,7 @@ entity:
       valid_from: 2026-09-01T07:04:42.890Z
   category: legal-compliance
 profile:
+  summary: Thoropass is a compliance platform and audit service for certifications including SOC 2, ISO 27001, PCI DSS, GDPR, and HIPAA.
   description: Thoropass is a compliance platform and audit service that helps organizations prepare for and obtain certifications including SOC 2, ISO 27001, PCI DSS, GDPR, and HIPAA.
   links:
     site: https://www.thoropass.com/
@@ -43,8 +44,8 @@ offers:
             kind: exact
             basis_points: 1500
       consideration:
-        kind: unknown
-        description: Special pricing exclusively for JPM Startup Offers.
+        kind: variable
+        description: Enjoy 15% off! Special pricing exclusively for JPM Startup Offers.
     eligibility:
       rule:
         criterion_id: cri_01
