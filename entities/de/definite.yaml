@@ -38,7 +38,7 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: $25,000 in Definite credits
+          description: Enough compute and AI credits to run analytics for a year.
           kind: credit
           value:
             amount:
@@ -46,12 +46,12 @@ offers:
               minor_units: 2500000
             kind: exact
         - benefit_id: ben_02
-          description: 12 months of Platform, free
+          description: Unlimited users, 500+ connectors, hourly sync, and full Fi access.
           duration:
             kind: exact
             value: P1Y
           kind: free-service
-          service: Definite Platform
+          service: Platform
         - benefit_id: ben_03
           description: White-glove onboarding with a senior data engineer to set up the warehouse, model core metrics, and build initial dashboards.
           kind: free-service
