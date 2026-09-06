@@ -57,8 +57,7 @@ offers:
             basis_points: 3500
             kind: exact
       consideration:
-        kind: variable
-        description: The startup pays the remaining discounted Cyber Chief subscription price.
+        kind: unknown
     eligibility:
       rule:
         kind: all
