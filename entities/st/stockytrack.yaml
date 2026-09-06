@@ -48,7 +48,7 @@ offers:
             basis_points: 2500
       consideration:
         kind: variable
-        description: 25% Off Any StockyTrack Plan for 12 Months
+        description: At the end of the trial you pick the plan that fits your team, or your workspace pauses.
     eligibility:
       rule:
         criterion_id: cri_01
