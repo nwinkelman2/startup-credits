@@ -40,6 +40,7 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
+          description: Startups receive Signzy API sandbox credits.
           kind: credit
           value:
             amount:
@@ -47,13 +48,17 @@ offers:
               minor_units: 500000
             kind: exact
         - benefit_id: ben_02
+          description: Startups receive startup-friendly rates for Signzy services.
           kind: other
         - benefit_id: ben_03
+          description: Startups receive access to Signzy's financial-institution and venture-capital networks.
           kind: other
         - benefit_id: ben_04
+          description: Startups receive mentoring from Signzy professionals and industry experts.
           kind: other
       consideration:
         kind: unknown
+        description: The cited source does not establish separate consideration beyond the offer terms.
     eligibility:
       rule:
         criterion_id: cri_01
@@ -66,6 +71,7 @@ offers:
     access:
       availability: public
       instructions: Contact Signzy through its public form to request startup program access.
+      method: form
       url: https://www.signzy.com/contact-us
     source_ids:
       - src_5f20bf17099dbd6233cc1165e63d05d786a490452998f6fe5098aba372e682b4
