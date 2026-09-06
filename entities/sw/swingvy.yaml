@@ -37,8 +37,7 @@ offers:
       effective_from: 2026-09-01T07:47:50.213Z
     economics:
       benefits:
-        - applies_to: Swingvy all-in-one HR platform
-          benefit_id: ben_01
+        - benefit_id: ben_01
           description: 50% off Swingvy for one year
           duration:
             kind: exact
@@ -48,8 +47,8 @@ offers:
             basis_points: 5000
             kind: exact
       consideration:
-        kind: unknown
-        description: Startup programme pricing applies.
+        kind: variable
+        description: The startup pays the remaining discounted price of its selected Swingvy plan.
     eligibility:
       rule:
         criterion_id: cri_01
