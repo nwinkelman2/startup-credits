@@ -10,6 +10,7 @@ entity:
       valid_from: 2026-09-01T06:15:00.000Z
   category: crm-sales
 profile:
+  summary: Agentic platform for marketing, sales, CRM, content, automation, and business operations.
   description: Wysera is an agentic platform that brings marketing, sales, CRM, content, automation, and business operations together for lean teams.
   links:
     site: https://wysera.ai/
@@ -54,7 +55,6 @@ offers:
           service: Done-with-you Launch Sprint
       consideration:
         kind: unknown
-        description: The source does not publish the converted founding-member price.
     eligibility:
       rule:
         criterion_id: cri_01
