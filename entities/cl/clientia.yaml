@@ -38,7 +38,6 @@ offers:
     economics:
       consideration:
         kind: variable
-        description: Access requires payment at the discounted Studio or Atelier plan price.
       benefits:
         - benefit_id: ben_01
           applies_to: Studio or Atelier plans
