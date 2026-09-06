@@ -49,7 +49,6 @@ offers:
             kind: exact
       consideration:
         kind: variable
-        description: The approved startup pays the remaining 50% of its selected DMARCwise paid plan during the offer period.
     eligibility:
       rule:
         kind: all
