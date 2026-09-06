@@ -10,6 +10,7 @@ entity:
       valid_from: 2026-09-01T09:12:44.086Z
   category: apis-integration
 profile:
+  summary: APIs for uploading, encoding, and processing images, video, audio, and documents.
   description: Transloadit provides APIs for uploading, encoding, and processing images, video, audio,
     and documents.
   links:
@@ -40,7 +41,6 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: Up to $2,000 in Transloadit file-processing credits valid for one year
           duration:
             kind: exact
             value: P1Y
