@@ -13,10 +13,12 @@ profile:
   summary: No-code A/B testing, personalization, heatmaps, and conversion analytics for websites.
   description: Optibase provides no-code A/B testing, split testing, heatmaps, personalization, and conversion analytics for websites.
   links:
-    site: https://www.optibase.io/startup-program
+    site: https://www.optibase.io
 sources:
   - source_id: src_2f1baa97e7c0a952971fac118483757ea8bed87058a8e46105e4be887533dfb7
     url: https://www.optibase.io/startup-program
+  - source_id: src_23c3c0b1f288bbd174001e81166fa6f819f8972bfde39c89a569cf00925915cc
+    url: https://www.optibase.io
 programs:
   - program_id: prg_01m1b60d408d3sshe3e2j6ztzd
     program_slug: startup-program
