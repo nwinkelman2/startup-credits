@@ -47,20 +47,23 @@ offers:
           description: Unlimited security questionnaire responses
           kind: other
         - benefit_id: ben_03
-          description: Public Trust Page and Data Rooms
+          description: Public Trust Page to showcase your security posture
           kind: other
         - benefit_id: ben_04
-          description: Flexible payment terms.
+          description: Data Rooms to securely share documents with customers
+          kind: other
+        - benefit_id: ben_05
+          description: Flexible payment terms
           kind: other
       consideration:
-        kind: variable
-        description: Eligible startups receive the package for one low price.
+        kind: unknown
+        description: Eligible startups get advanced HyperComply features and unlimited security questionnaire responses for one low price.
     eligibility:
       rule:
         criterion_id: cri_01
         kind: manual
         reason: vendor-discretion
-        statement: HyperComply determines which startups are eligible through its application process.
+        statement: The applicant must be an eligible startup.
     roles:
       terms_authority_entity_id: ent_01m1ddg6j0rw6hwp1encpkxdbn
       access_operator_entity_id: ent_01m1ddg6j0rw6hwp1encpkxdbn
