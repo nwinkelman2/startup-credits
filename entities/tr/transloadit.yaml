@@ -41,6 +41,7 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
+          description: Current partner-accelerator founders and alumni can receive Transloadit credits.
           duration:
             kind: exact
             value: P1Y
