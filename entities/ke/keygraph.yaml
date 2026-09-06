@@ -41,7 +41,7 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: Every Keygraph Pro module is free until graduation, with a 90-day free conversion window afterward.
+          description: 100% free Keygraph Pro, until you graduate from the program.
           kind: free-service
           service: Keygraph Pro
       consideration:
