@@ -48,7 +48,7 @@ offers:
             kind: exact
       consideration:
         kind: variable
-        description: The discount applies to any paid plan.
+        description: Eligible startups can receive a 50% discount on any paid plan for their first 12 months.
     eligibility:
       rule:
         kind: all
