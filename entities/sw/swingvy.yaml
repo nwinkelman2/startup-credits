@@ -17,8 +17,6 @@ profile:
 sources:
   - source_id: src_c63c7c4b4551b8323a4fe2316757731fce3dbb21957aea66e1278292304c6e8b
     url: https://www.swingvy.com/sg/startups
-  - source_id: src_35578c82dfec00c300cac11bc7405e5f831dca36df321b2bc8332302e87c73b3
-    url: https://www.swingvy.com/sg/pricing
 programs:
   - program_id: prg_tjwnd1zf7nk92np2cnk62fn6y5
     program_slug: swingvy-startup-program
@@ -50,8 +48,8 @@ offers:
             basis_points: 5000
             kind: exact
       consideration:
-        kind: variable
-        description: Pricing is based on the number of employees, with monthly or annual subscriptions.
+        kind: unknown
+        description: Startup programme pricing applies.
     eligibility:
       rule:
         criterion_id: cri_01
@@ -68,4 +66,3 @@ offers:
       url: https://secure.swingvy.com/
     source_ids:
       - src_c63c7c4b4551b8323a4fe2316757731fce3dbb21957aea66e1278292304c6e8b
-      - src_35578c82dfec00c300cac11bc7405e5f831dca36df321b2bc8332302e87c73b3
