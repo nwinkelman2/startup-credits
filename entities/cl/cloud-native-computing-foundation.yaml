@@ -11,6 +11,7 @@ entity:
       valid_from: 2026-09-01T07:55:19.1659258Z
   category: other
 profile:
+  summary: Cloud-native open-source foundation and ecosystem.
   description: CNCF offers a Silver Membership for Startups designed to connect and recognize small teams in the cloud-native ecosystem.
   links:
     site: https://www.cncf.io
