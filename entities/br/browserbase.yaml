@@ -29,10 +29,9 @@ offers:
       effective_from: 2026-09-02T09:07:14.036Z
     economics:
       consideration:
-        kind: none
+        kind: unknown
       benefits:
         - benefit_id: ben_primary
-          description: ElevenLabs Founder Pack credits for Browserbase
           kind: other
     eligibility:
       rule:
