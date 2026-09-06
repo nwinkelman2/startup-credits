@@ -47,8 +47,8 @@ offers:
             basis_points: 7500
             kind: up-to
       consideration:
-        kind: unknown
-        description: The cited source does not establish separate consideration beyond the offer terms.
+        kind: variable
+        description: All shown prices are net.
     eligibility:
       rule:
         criterion_id: cri_01
