@@ -47,7 +47,6 @@ offers:
             basis_points: 7500
       consideration:
         kind: unknown
-        description: The source does not state the price payable after applying the 75% discount.
     eligibility:
       rule:
         kind: all
