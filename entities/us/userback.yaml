@@ -44,8 +44,8 @@ offers:
             kind: exact
             basis_points: 2500
       consideration:
-        kind: variable
-        description: Price per month, billed annually, varies by plan.
+        kind: unknown
+        description: Discounted annual-plan pricing applies.
     eligibility:
       rule:
         kind: manual
