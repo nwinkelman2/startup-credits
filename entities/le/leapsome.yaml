@@ -15,8 +15,10 @@ profile:
   links:
     site: https://www.leapsome.com
 sources:
-  - source_id: src_463247973e7acf938d070cb9b8116d2d6d7985cc2ccaba22e85c318b022aeca7
-    url: https://site.leapsome.com/leapsome-for-startups
+  - source_id: src_f268e0219fcba1ee4e744fc3026bd2ce08d741daad6d742045bf7a6fc940be00
+    url: https://www.leapsome.com/leapsome-for-startups
+  - source_id: src_7631dba08e80323075965d81f7b305697a7a1541febeb6e96616dc5bd945e89f
+    url: https://www.leapsome.com/pricing
 programs:
   - program_id: prg_885nm7jkw21ga3as42sm3kwdg3
     program_slug: leapsome-for-startups
@@ -24,7 +26,8 @@ programs:
     title: Leapsome for Startups
     summary: Eligible new startups with fewer than 50 employees receive 20% off Leapsome, or 25% off when affiliated with a Leapsome startup partner, for three years.
     source_ids:
-      - src_463247973e7acf938d070cb9b8116d2d6d7985cc2ccaba22e85c318b022aeca7
+      - src_f268e0219fcba1ee4e744fc3026bd2ce08d741daad6d742045bf7a6fc940be00
+      - src_7631dba08e80323075965d81f7b305697a7a1541febeb6e96616dc5bd945e89f
 offers:
   - offer_id: off_yj7zg8180zgwtw06mx4mnr28x8
     program_id: prg_885nm7jkw21ga3as42sm3kwdg3
@@ -37,9 +40,8 @@ offers:
       effective_from: 2026-09-01T08:28:47.6625505Z
     economics:
       benefits:
-        - applies_to: Leapsome subscription
-          benefit_id: ben_01
-          description: 20% off Leapsome for three years, increased to 25% for startups affiliated with a Leapsome startup partner
+        - benefit_id: ben_01
+          description: Early-stage startups with teams under 50 employees can apply for a 20% discount; for startups affiliated with a Leapsome startup partner, the discount grows to 25%.
           duration:
             kind: exact
             value: P3Y
@@ -49,7 +51,7 @@ offers:
             kind: up-to
       consideration:
         kind: variable
-        description: The approved startup pays the remaining 75% or 80% of its Leapsome subscription price during the offer period, according to partner affiliation.
+        description: Leapsome modules can be bought individually or combined in any combination.
     eligibility:
       rule:
         kind: all
@@ -73,15 +75,16 @@ offers:
           - criterion_id: cri_03
             kind: manual
             reason: external-verification
-            statement: Leapsome verifies whether the applicant has startup-partner affiliation to assign the 20% or 25% discount tier.
+            statement: The applicant must be affiliated with one of Leapsome's startup partners for the 25% discount, or not affiliated for the 20% discount.
     roles:
       terms_authority_entity_id: ent_12xdyf267w559tv3a4tk2pj7ma
       access_operator_entity_id: ent_12xdyf267w559tv3a4tk2pj7ma
     access:
       availability: public
-      instructions: Complete the founder-friendly demo form on the Leapsome for Startups page and provide any startup-partner affiliation to claim the applicable discount.
+      instructions: Claim the startup discount by booking a founder-friendly demo with one of Leapsome's experts.
       method: form
-      url: https://site.leapsome.com/leapsome-for-startups
-    terms_url: https://site.leapsome.com/leapsome-for-startups
+      url: https://www.leapsome.com/leapsome-for-startups
+    terms_url: https://www.leapsome.com/leapsome-for-startups
     source_ids:
-      - src_463247973e7acf938d070cb9b8116d2d6d7985cc2ccaba22e85c318b022aeca7
+      - src_f268e0219fcba1ee4e744fc3026bd2ce08d741daad6d742045bf7a6fc940be00
+      - src_7631dba08e80323075965d81f7b305697a7a1541febeb6e96616dc5bd945e89f
