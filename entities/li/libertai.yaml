@@ -49,7 +49,7 @@ offers:
           description: Migration support from the LibertAI team.
           kind: other
       consideration:
-        kind: none
+        kind: unknown
     eligibility:
       rule:
         kind: manual
