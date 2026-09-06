@@ -48,7 +48,7 @@ offers:
             kind: exact
       consideration:
         kind: variable
-        description: The startup pays the remaining discounted price of its selected Swingvy plan.
+        description: Startup programme pricing.
     eligibility:
       rule:
         criterion_id: cri_01
