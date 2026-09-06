@@ -38,7 +38,7 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: Eligible startups receive Ghostly Solutions enterprise security products free for one year.
+          description: Get full access to Ghostly Solutions' enterprise security products for a whole year absolutely free.
           duration:
             kind: exact
             value: P1Y
