@@ -10,6 +10,7 @@ entity:
       valid_from: 2026-09-01T06:49:52.445Z
   category: support
 profile:
+  summary: Customer-feedback tools for in-app feedback, surveys, session replays, and insights.
   description: Userback is a customer-feedback platform for collecting bug reports, in-app feedback, surveys, session replays, feature requests, and product insights.
   links:
     site: https://userback.io/
@@ -44,7 +45,7 @@ offers:
             basis_points: 2500
       consideration:
         kind: variable
-        description: 25% off all annual plans for the first year.
+        description: Price per month, billed annually, varies by plan.
     eligibility:
       rule:
         kind: manual
