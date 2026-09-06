@@ -50,6 +50,7 @@ offers:
           kind: other
       consideration:
         kind: unknown
+        description: The source record did not establish separate consideration.
     eligibility:
       rule:
         kind: manual
