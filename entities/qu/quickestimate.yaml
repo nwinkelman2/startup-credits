@@ -38,6 +38,7 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
+          description: Approved contractors receive 40% off QuickEstimate for 12 months.
           duration:
             kind: exact
             value: P1Y
@@ -46,7 +47,8 @@ offers:
             kind: exact
             basis_points: 4000
       consideration:
-        kind: variable
+        kind: unknown
+        description: The cited source does not establish separate consideration beyond the offer terms.
     eligibility:
       rule:
         kind: all
