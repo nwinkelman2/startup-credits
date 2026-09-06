@@ -71,9 +71,9 @@ offers:
       access_operator_entity_id: ent_y2mw7aqj95h2b0xh6s17bs3rav
     access:
       availability: public
-      method: form
+      method: automatic
       url: https://payments-eu1.hubspot.com/payments/TJ2z7yRSQPCw
-      instructions: Register the company on Innovation Match, then use the PRIME STARTUP Subscribe Now checkout.
+      instructions: Register the company on Innovation Match, then open the published PRIME STARTUP Subscribe Now link and complete checkout.
     terms_url: https://www.innovationmatch.io/business-match/
     source_ids:
       - src_311929614e871403c9016e5d62372fd31e126aafc4c5c3a17d4c3bc1ca6d4d66
