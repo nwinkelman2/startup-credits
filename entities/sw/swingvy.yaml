@@ -49,6 +49,7 @@ offers:
             kind: exact
       consideration:
         kind: variable
+        description: 50% off Swingvy for one year
     eligibility:
       rule:
         criterion_id: cri_01
