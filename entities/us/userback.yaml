@@ -43,8 +43,7 @@ offers:
             kind: exact
             basis_points: 2500
       consideration:
-        kind: unknown
-        description: The payable amount depends on the annual plan selected and is not stated on the program page.
+        kind: variable
     eligibility:
       rule:
         kind: manual
