@@ -54,8 +54,7 @@ offers:
           description: Direct access to Viam's Forward Deployed Engineering team through a shared Slack channel.
           kind: other
       consideration:
-        kind: variable
-        description: Credits cover up to $2,500 of Viam usage per month; the startup is responsible for usage above that monthly amount.
+        kind: none
     eligibility:
       rule:
         kind: all
