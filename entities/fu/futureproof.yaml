@@ -38,7 +38,7 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: Eligible startups receive startup pricing for Futureproof's six-agent finance team.
+          description: Companies on the Startup Program get the same six-agent team that Launch-tier companies get.
           kind: other
       consideration:
         amount:
