@@ -57,8 +57,8 @@ offers:
             kind: exact
             value: P6M
       consideration:
-        kind: variable
-        description: The startup pays 25% of the applicable Cyscale startup-program price during months seven through twelve.
+        kind: unknown
+        description: A 75% discounted price applies during months seven through twelve.
     eligibility:
       rule:
         kind: all
