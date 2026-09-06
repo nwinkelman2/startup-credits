@@ -10,6 +10,7 @@ entity:
       valid_from: 2026-09-01T06:58:12.352Z
   category: devtools-other
 profile:
+  summary: Software for building, deploying, and managing robots and smart machines.
   description: Viam is a software platform for building, deploying, managing, and scaling robotics and smart-machine applications across hardware fleets.
   links:
     site: https://www.viam.com/
@@ -68,13 +69,9 @@ offers:
             reason: external-verification
             statement: The company is at Series C or an earlier stage.
           - criterion_id: cri_03
-            fact: company.age_months
-            kind: predicate
-            operator: lte
+            kind: manual
+            reason: external-verification
             statement: The company was founded within the last five years.
-            value:
-              type: number
-              value: 60
           - criterion_id: cri_04
             kind: manual
             reason: external-verification
@@ -95,6 +92,5 @@ offers:
       method: form
       url: https://www.viam.com/platform/demo-request
       instructions: Submit Viam's demo-request form and select "Applying to Viam for Startups."
-    terms_url: https://www.viam.com/resources/startups
     source_ids:
       - src_674dc2b373c662784d35a189b4264bc5964c2d09a1547f66f2d3ff57550695db
