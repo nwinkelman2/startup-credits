@@ -10,6 +10,7 @@ entity:
       valid_from: 2026-08-31T00:00:00Z
   category: marketing
 profile:
+  summary: No-code A/B testing, personalization, heatmaps, and conversion analytics for websites.
   description: Optibase provides no-code A/B testing, split testing, heatmaps, personalization, and conversion analytics for websites.
   links:
     site: https://www.optibase.io
@@ -68,7 +69,6 @@ offers:
     access:
       availability: public
       method: other
-      url: https://www.optibase.io/startup-program
       instructions: Contact Optibase through the startup-program page; approved startups receive a custom discount code.
     source_ids:
       - src_2f1baa97e7c0a952971fac118483757ea8bed87058a8e46105e4be887533dfb7
