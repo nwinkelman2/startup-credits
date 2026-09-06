@@ -38,7 +38,7 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: Routine Business free for one year.
+          description: One year free Routine Business
           kind: free-service
           service: Routine Business plan
           duration:
