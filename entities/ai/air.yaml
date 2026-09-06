@@ -11,6 +11,7 @@ entity:
       valid_from: 2026-08-30T20:53:48.157Z
   category: design
 profile:
+  summary: Creative operations platform for managing and scaling brand assets.
   description: Air is a creative operations platform for organizing, finding, editing, reviewing, approving, storing, and sharing brand assets.
   links:
     site: https://air.inc
@@ -42,9 +43,9 @@ offers:
         kind: none
       benefits:
         - benefit_id: ben_01
-          description: Up to six months of Air's Business plan at no charge, covering storage and AI action credits and valued by Air at up to USD 5,800.
+          description: Get up to 6 months free on Air's Business plan.
           kind: free-service
-          service: Air Business plan
+          service: Business plan
           duration:
             kind: up-to
             value: P6M
@@ -52,7 +53,7 @@ offers:
       rule:
         kind: manual
         criterion_id: cri_01
-        statement: Applicant must be a non-paying Air customer with a valid work email and live company website, be a portfolio company of an Air ecosystem partner, and be at Seed through Series B stage.
+        statement: You must be a non-paying Air customer with a valid work email (no Gmail, Outlook, etc), be a portfolio company of one of our ecosystem partners, and be a seed to Series B stage startup.
         reason: not-machine-evaluable
     roles:
       terms_authority_entity_id: ent_01m1a762a52r4ntg9n16eqvbhg
