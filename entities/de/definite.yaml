@@ -10,6 +10,7 @@ entity:
       valid_from: 2026-09-01T06:13:06.025Z
   category: data-analytics
 profile:
+  summary: AI-native data platform for warehouse, ETL, business intelligence, and analytics.
   description: Definite is an AI-native data platform that combines a warehouse, data integration, business intelligence, and analytics agents in a private deployment within a customer's cloud environment.
   links:
     site: https://www.definite.app/
@@ -37,7 +38,7 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: $25,000 in Definite compute and AI credits.
+          description: $25,000 in Definite credits
           kind: credit
           value:
             amount:
@@ -45,7 +46,7 @@ offers:
               minor_units: 2500000
             kind: exact
         - benefit_id: ben_02
-          description: Definite Platform free for 12 months, including unlimited users, more than 500 connectors, hourly sync, and full Fi access.
+          description: 12 months of Platform, free
           duration:
             kind: exact
             value: P1Y
