@@ -38,7 +38,7 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: Free SOC 2 Type I and Type II readiness, a short onboarding consultation, AI support for security questionnaires, and a public compliance portal.
+          description: Free SOC 2, types I and II readiness
           kind: free-service
           service: TrustCloud Starter
       consideration:
