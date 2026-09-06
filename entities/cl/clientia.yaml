@@ -37,8 +37,8 @@ offers:
       effective_from: 2026-08-31T22:12:11.042Z
     economics:
       consideration:
-        kind: unknown
-        description: The cited source does not establish separate consideration beyond the offer terms.
+        kind: variable
+        description: A Clientia Studio or Atelier plan is discounted by 50% for 12 months.
       benefits:
         - benefit_id: ben_01
           applies_to: Studio or Atelier plans
