@@ -38,7 +38,7 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: $30,000 in credits toward Pilot's software subscription for the first year.
+          description: $30,000 in credits
           kind: credit
           value:
             amount:
@@ -46,8 +46,8 @@ offers:
               minor_units: 3000000
             kind: up-to
       consideration:
-        kind: unknown
-        description: The cited source does not establish separate consideration beyond the offer terms.
+        kind: variable
+        description: The credits apply toward Pilot's software subscription for the first year.
     eligibility:
       rule:
         kind: all
