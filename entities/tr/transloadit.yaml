@@ -41,7 +41,7 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: Up to $2000 in Transloadit credit.
+          description: Partner portfolio founders can receive up to $2000 in Transloadit credit for their file processing needs.
           duration:
             kind: exact
             value: P1Y
