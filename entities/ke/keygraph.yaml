@@ -41,7 +41,7 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: 100% free Keygraph Pro, until you graduate from the program.
+          description: Every Keygraph Pro module is free until graduation, with a 90-day free conversion window afterward.
           kind: free-service
           service: Keygraph Pro
       consideration:
@@ -52,7 +52,7 @@ offers:
         kind: manual
         criterion_id: cri_01
         reason: external-verification
-        statement: Seed and pre-Series-A startups with 20 or fewer Active Developers.
+        statement: Eligible applicants are seed and pre-Series-A startups with at most 20 Active Developers.
     roles:
       terms_authority_entity_id: ent_01m1d67wcpvcmcr3befxgyyz77
       access_operator_entity_id: ent_01m1d67wcpvcmcr3befxgyyz77
