@@ -10,6 +10,7 @@ entity:
       valid_from: 2026-09-01T00:00:00.000Z
   category: auth-security
 profile:
+  summary: Hosted application-security platform for penetration testing, code scanning, remediation, and vulnerability management.
   description: Keygraph provides a hosted application-security platform for penetration testing, code scanning, remediation, and vulnerability management.
   links:
     site: https://keygraph.io
@@ -40,12 +41,10 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: The full Keygraph Pro platform, with every module included, at $0 in cloud service fees.
           kind: free-service
           service: Keygraph Pro
       consideration:
         kind: variable
-        description: Participants pay only for their own AI provider usage.
     eligibility:
       rule:
         kind: manual
