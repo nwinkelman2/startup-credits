@@ -38,7 +38,7 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: 50% off any DMARCwise paid plan for 12 months
+          description: Eligible startups can receive a 50% discount on any paid plan for their first 12 months.
           duration:
             kind: exact
             value: P1Y
@@ -48,7 +48,7 @@ offers:
             kind: exact
       consideration:
         kind: variable
-        description: 50% off any DMARCwise paid plan for 12 months
+        description: The discount applies to any paid plan.
     eligibility:
       rule:
         kind: all
