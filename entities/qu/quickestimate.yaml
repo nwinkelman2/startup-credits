@@ -48,27 +48,13 @@ offers:
             basis_points: 4000
       consideration:
         kind: variable
-        description: Startup Program pricing is 40% off the selected QuickEstimate plan for the first 12 months.
+        description: Basic is $29 per month, Gold is $79 per month, and Premium is $149 per month; the Startup Program offers 40% off for the first 12 months.
     eligibility:
       rule:
-        kind: all
-        rules:
-          - criterion_id: cri_01
-            kind: manual
-            reason: external-verification
-            statement: The applicant is a contracting business.
-          - criterion_id: cri_02
-            fact: company.age_months
-            kind: predicate
-            operator: lt
-            statement: The business has been operating for less than two years.
-            value:
-              type: number
-              value: 24
-          - criterion_id: cri_03
-            kind: manual
-            reason: external-verification
-            statement: The applicant provides proof of the business registration date.
+        criterion_id: cri_01
+        kind: manual
+        reason: external-verification
+        statement: Contractors must have been in business less than two years and provide proof of the business registration date.
     roles:
       terms_authority_entity_id: ent_6r086m75r6fn9knh0jxf7vxt0g
       access_operator_entity_id: ent_6r086m75r6fn9knh0jxf7vxt0g
