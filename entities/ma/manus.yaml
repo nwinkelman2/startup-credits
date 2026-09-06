@@ -46,6 +46,7 @@ offers:
           service: Manus Team
       consideration:
         kind: unknown
+        description: The public program page does not publish a price or other required consideration.
     eligibility:
       rule:
         criterion_id: cri_01
