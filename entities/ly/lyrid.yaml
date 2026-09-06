@@ -49,8 +49,7 @@ offers:
           kind: free-service
           service: Migration and engineering consultancy
       consideration:
-        kind: variable
-        description: $0 for the first six months, then $600 per month or $6,000 per year on the Enterprise Plan.
+        kind: none
     eligibility:
       rule:
         kind: all
