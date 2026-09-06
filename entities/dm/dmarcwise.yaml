@@ -48,7 +48,8 @@ offers:
             basis_points: 5000
             kind: exact
       consideration:
-        kind: variable
+        kind: unknown
+        description: The cited source does not establish separate consideration beyond the offer terms.
     eligibility:
       rule:
         kind: all
