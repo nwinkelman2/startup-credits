@@ -38,6 +38,7 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
+          description: Eligible startups can receive Symbl.ai API platform credits.
           kind: credit
           value:
             amount:
@@ -45,11 +46,14 @@ offers:
               minor_units: 1000000
             kind: exact
         - benefit_id: ben_02
+          description: Eligible startups can receive integration and technical support.
           kind: other
         - benefit_id: ben_03
+          description: Eligible startups can receive startup-community access.
           kind: other
       consideration:
         kind: unknown
+        description: The cited source does not establish separate consideration beyond the offer terms.
     eligibility:
       rule:
         kind: all
