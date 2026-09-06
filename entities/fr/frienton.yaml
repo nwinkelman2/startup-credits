@@ -37,9 +37,7 @@ offers:
       effective_from: 2026-09-01T00:00:00.000Z
     economics:
       benefits:
-        - applies_to: Frienton subscription
-          benefit_id: ben_01
-          description: Up to 75% off Frienton in the first year.
+        - benefit_id: ben_01
           duration:
             kind: exact
             value: P1Y
@@ -49,7 +47,6 @@ offers:
             kind: up-to
       consideration:
         kind: unknown
-        description: Frienton's startup page publishes percentage discounts but not the resulting subscription price.
     eligibility:
       rule:
         criterion_id: cri_01
