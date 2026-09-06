@@ -39,7 +39,7 @@ offers:
       benefits:
         - applies_to: Every Jobo subscription plan
           benefit_id: ben_01
-          description: 50% off every subscription plan for 12 months; pay-as-you-go usage is charged at the full rate.
+          description: Early-stage teams pay half price on every subscription plan for their first 12 months.
           duration:
             kind: exact
             value: P12M
@@ -49,7 +49,7 @@ offers:
             kind: exact
       consideration:
         kind: variable
-        description: Early-stage teams pay half price on every subscription plan; pay-as-you-go usage is charged at the full rate.
+        description: Usage billed pay as you go, including beyond included jobs, is charged at the full rate.
     eligibility:
       rule:
         criterion_id: cri_01
