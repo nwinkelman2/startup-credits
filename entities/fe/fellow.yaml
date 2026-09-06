@@ -47,8 +47,8 @@ offers:
             basis_points: 2500
             kind: up-to
       consideration:
-        kind: unknown
-        description: The cited source does not establish separate consideration beyond the offer terms.
+        kind: variable
+        description: Fellow is discounted by up to 25% during the first year.
     eligibility:
       rule:
         criterion_id: cri_01
