@@ -17,6 +17,8 @@ profile:
 sources:
   - source_id: src_311929614e871403c9016e5d62372fd31e126aafc4c5c3a17d4c3bc1ca6d4d66
     url: https://www.innovationmatch.io/business-match/
+  - source_id: src_ca52748e9b69f8dfb4583315c2c3f0cbe89bf8220f39b16c1402320d2ba0669f
+    url: https://payments-eu1.hubspot.com/payments/TJ2z7yRSQPCw?referrer=PAYMENT_LINK
 programs:
   - program_id: prg_mn9x6z64waa30rq92r8f0w5bxw
     program_slug: prime-startup
@@ -50,18 +52,29 @@ offers:
           minor_units: 29900
     eligibility:
       rule:
-        criterion_id: cri_01
-        kind: manual
-        reason: external-verification
-        statement: The company must be registered on Innovation Match, have been founded in 2023 or later, and use the startup discount only once for a new activation.
+        kind: all
+        rules:
+          - criterion_id: cri_01
+            kind: manual
+            reason: external-verification
+            statement: The company is registered on Innovation Match.
+          - criterion_id: cri_02
+            kind: manual
+            reason: external-verification
+            statement: The company was founded in 2023 or later.
+          - criterion_id: cri_03
+            kind: manual
+            reason: external-verification
+            statement: The startup promotion is used only once and only for a new activation.
     roles:
       terms_authority_entity_id: ent_y2mw7aqj95h2b0xh6s17bs3rav
       access_operator_entity_id: ent_y2mw7aqj95h2b0xh6s17bs3rav
     access:
       availability: public
       method: form
-      url: https://www.innovationmatch.io/business-match/
-      instructions: Register the company on Innovation Match, then use the PRIME STARTUP subscription route on the business-match page.
+      url: https://payments-eu1.hubspot.com/payments/TJ2z7yRSQPCw?referrer=PAYMENT_LINK
+      instructions: Register the company on Innovation Match, then use the PRIME STARTUP Subscribe Now checkout.
     terms_url: https://www.innovationmatch.io/business-match/
     source_ids:
       - src_311929614e871403c9016e5d62372fd31e126aafc4c5c3a17d4c3bc1ca6d4d66
+      - src_ca52748e9b69f8dfb4583315c2c3f0cbe89bf8220f39b16c1402320d2ba0669f
