@@ -47,8 +47,8 @@ offers:
             kind: exact
             basis_points: 2500
       consideration:
-        kind: unknown
-        description: The cited source does not establish separate consideration beyond the offer terms.
+        kind: variable
+        description: A StockyTrack plan is discounted by 25% for 12 months.
     eligibility:
       rule:
         criterion_id: cri_01
