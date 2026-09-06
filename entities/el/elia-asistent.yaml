@@ -10,6 +10,7 @@ entity:
       valid_from: 2026-08-30T20:06:17.787Z
   category: support
 profile:
+  summary: ELIA Asistent provides AI-powered customer support across web chat, email, WhatsApp, and Telegram, with a built-in CRM and human handoff.
   description: ELIA Asistent provides AI-powered customer support across web chat, email, WhatsApp, and Telegram, with a built-in CRM and human handoff.
   links:
     site: https://elia-asistent.com
