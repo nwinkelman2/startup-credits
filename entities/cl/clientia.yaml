@@ -38,11 +38,11 @@ offers:
     economics:
       consideration:
         kind: variable
-        description: A Clientia Studio or Atelier plan is discounted by 50% for 12 months.
+        description: Clientia Founders Plan Discount
       benefits:
         - benefit_id: ben_01
           applies_to: Studio or Atelier plans
-          description: 50% off Clientia Studio or Atelier for 12 months
+          description: Clientia Founders Plan Discount
           duration:
             kind: exact
             value: P1Y
