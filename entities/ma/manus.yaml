@@ -38,14 +38,14 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: 6 months of Team Subscription for up to 20 seats.
+          description: 6 months of Manus Team.
           duration:
             kind: exact
             value: P6M
           kind: free-service
           service: Manus Team
       consideration:
-        kind: none
+        kind: unknown
     eligibility:
       rule:
         criterion_id: cri_01
