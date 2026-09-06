@@ -30,11 +30,11 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: 15% off the first year of Secfix security and compliance automation software.
+          description: We’ve partnered with Google for Startups to give you 15% off your first year for our best-in-class security & compliance automation software.
           kind: other
       consideration:
-        kind: unknown
-        description: The public offer page does not publish the payable Secfix price after the discount.
+        kind: variable
+        description: We’ve partnered with Google for Startups to give you 15% off your first year for our best-in-class security & compliance automation software.
     eligibility:
       rule:
         criterion_id: cri_01
