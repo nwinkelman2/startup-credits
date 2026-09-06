@@ -48,7 +48,7 @@ offers:
             basis_points: 5000
             kind: exact
       consideration:
-        kind: none
+        kind: variable
     eligibility:
       rule:
         criterion_id: cri_01
