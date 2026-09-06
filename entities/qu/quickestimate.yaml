@@ -48,7 +48,7 @@ offers:
             basis_points: 4000
       consideration:
         kind: variable
-        description: Basic is $29 per month, Gold is $79 per month, and Premium is $149 per month; the Startup Program offers 40% off for the first 12 months.
+        description: Basic costs $29 per month, Gold costs $79 per month, and Premium costs $149 per month.
     eligibility:
       rule:
         criterion_id: cri_01
