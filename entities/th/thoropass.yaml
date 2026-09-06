@@ -44,6 +44,7 @@ offers:
             basis_points: 1500
       consideration:
         kind: unknown
+        description: Special pricing exclusively for JPM Startup Offers.
     eligibility:
       rule:
         criterion_id: cri_01
