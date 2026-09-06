@@ -10,6 +10,7 @@ entity:
       valid_from: 2026-09-01T07:17:12.960Z
   category: auth-security
 profile:
+  summary: Cloud-native security, risk, and compliance platform.
   description: Cyscale is a cloud-native application protection platform that analyzes cloud misconfigurations, vulnerabilities, identities, data, and compliance controls across major cloud providers.
   links:
     site: https://cyscale.com/
