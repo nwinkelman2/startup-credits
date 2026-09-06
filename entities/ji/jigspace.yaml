@@ -48,6 +48,7 @@ offers:
             kind: exact
       consideration:
         kind: unknown
+        description: 50% off plans for 12 months
     eligibility:
       rule:
         criterion_id: cri_01
