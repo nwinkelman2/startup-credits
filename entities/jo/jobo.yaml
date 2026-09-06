@@ -10,6 +10,7 @@ entity:
       valid_from: 2026-09-01T07:34:14.707Z
   category: apis-integration
 profile:
+  summary: Job data APIs for Search, Feed, Export, and Outbound.
   description: Jobo provides job data APIs for search, feeds, exports, outbound distribution, auto-apply workflows, and integrations with applicant tracking systems.
   links:
     site: https://jobo.world
@@ -36,9 +37,9 @@ offers:
       effective_from: 2026-09-01T07:34:14.707Z
     economics:
       benefits:
-        - applies_to: Jobo Job Search and Unlimited subscription plans
+        - applies_to: Every Jobo subscription plan
           benefit_id: ben_01
-          description: 50% off the subscription price of every Jobo plan for 12 months; pay-as-you-go usage and usage beyond plan inclusions is not discounted.
+          description: 50% off every subscription plan for 12 months; pay-as-you-go usage is charged at the full rate.
           duration:
             kind: exact
             value: P12M
@@ -48,19 +49,13 @@ offers:
             kind: exact
       consideration:
         kind: variable
-        description: The approved team pays the remaining 50% of its selected subscription price and the full price of pay-as-you-go usage.
+        description: Early-stage teams pay half price on every subscription plan; pay-as-you-go usage is charged at the full rate.
     eligibility:
       rule:
-        kind: all
-        rules:
-          - criterion_id: cri_01
-            kind: manual
-            reason: vendor-discretion
-            statement: The applicant must be an early-stage team approved by Jobo.
-          - criterion_id: cri_02
-            kind: manual
-            reason: external-verification
-            statement: The application requires a company website and a work email address on the same domain, along with the team size and funding stage.
+        criterion_id: cri_01
+        kind: manual
+        reason: vendor-discretion
+        statement: The applicant must be an early-stage team approved by Jobo.
     roles:
       terms_authority_entity_id: ent_bvsnw93368hnvkbcqfd0k9gya3
       access_operator_entity_id: ent_bvsnw93368hnvkbcqfd0k9gya3
