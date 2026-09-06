@@ -38,6 +38,7 @@ offers:
     economics:
       consideration:
         kind: variable
+        description: If you exceed your plan's 100M credit limit, you will be charged the standard rate of $5 per million credits.
       benefits:
         - benefit_id: ben_01
           description: 8 months free Business plan ($4K value)
