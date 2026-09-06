@@ -38,7 +38,6 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: Symbl.ai API platform credits amounting to 200,000 minutes or $10,000.
           kind: credit
           value:
             amount:
@@ -46,13 +45,11 @@ offers:
               minor_units: 1000000
             kind: exact
         - benefit_id: ben_02
-          description: Integration and solution support together with technical help.
           kind: other
         - benefit_id: ben_03
-          description: Exclusive access to the Symbl.ai startup community for founders working on voice and conversation intelligence.
           kind: other
       consideration:
-        kind: none
+        kind: unknown
     eligibility:
       rule:
         kind: all
