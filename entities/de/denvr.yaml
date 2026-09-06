@@ -30,7 +30,7 @@ offers:
     program_id: prg_2npvvcyhws75xzmkfmfdjb9ssm
     offer_slug: ai-ascend-compute-credits
     offer_slug_aliases: []
-    title: USD 1,000 initial credit and up to USD 500,000 in Denvr production credits
+    title: Credits to Help You Start & Scale
     summary: Approved AI builders receive an initial USD 1,000 in Denvr AI Compute credits and may receive up to USD 500,000 in production credits based on needs and potential.
     lifecycle:
       status: active
@@ -38,21 +38,11 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: USD 1,000 in initial startup credits for Denvr AI Compute Services
+          description: Kick-off with initial $1,000 of start-up credits for Denvr AI Compute Services.
           kind: credit
-          value:
-            amount:
-              currency: USD
-              minor_units: 100000
-            kind: exact
         - benefit_id: ben_02
-          description: Up to USD 500,000 in production credits based on the approved team's needs and potential
+          description: Eligible teams can receive up to $500,000 in production credits based on needs and potential.
           kind: credit
-          value:
-            amount:
-              currency: USD
-              minor_units: 50000000
-            kind: up-to
       consideration:
         kind: none
     eligibility:
