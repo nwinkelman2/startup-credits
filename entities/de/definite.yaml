@@ -38,7 +38,7 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: Enough compute and AI credits to run analytics for a year.
+          description: Enough compute and AI credits to run your analytics for a year — with plenty of room to experiment.
           kind: credit
           value:
             amount:
@@ -53,7 +53,7 @@ offers:
           kind: free-service
           service: Platform
         - benefit_id: ben_03
-          description: White-glove onboarding with a senior data engineer to set up the warehouse, model core metrics, and build initial dashboards.
+          description: A senior data engineer sets up your warehouse, models your core metrics, and builds your first dashboards.
           kind: free-service
           service: White-glove onboarding
       consideration:
