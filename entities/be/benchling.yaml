@@ -10,6 +10,7 @@ entity:
       valid_from: 2026-09-01T12:00:00.000Z
   category: productivity
 profile:
+  summary: Benchling provides a cloud R&D platform for biotechnology teams to manage experiments, molecular data, samples, and inventory.
   description: Benchling provides a cloud research and development platform for biotechnology teams to manage experiments, molecular data, samples, and inventory.
   links:
     site: https://www.benchling.com/
