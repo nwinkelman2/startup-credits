@@ -55,6 +55,7 @@ offers:
           service: Done-with-you Launch Sprint
       consideration:
         kind: unknown
+        description: The cited source does not establish separate consideration beyond the offer terms.
     eligibility:
       rule:
         criterion_id: cri_01
