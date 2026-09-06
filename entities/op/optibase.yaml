@@ -12,8 +12,6 @@ entity:
 profile:
   summary: No-code A/B testing, personalization, heatmaps, and conversion analytics for websites.
   description: Optibase provides no-code A/B testing, split testing, heatmaps, personalization, and conversion analytics for websites.
-  links:
-    site: https://www.optibase.io
 sources:
   - source_id: src_2f1baa97e7c0a952971fac118483757ea8bed87058a8e46105e4be887533dfb7
     url: https://www.optibase.io/startup-program
@@ -38,11 +36,9 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: A custom discount on an Optibase monthly or yearly subscription for one year, with the amount provided after approval.
           kind: other
       consideration:
         kind: unknown
-        description: The discounted price is provided after Optibase approves the startup application.
     eligibility:
       rule:
         kind: all
