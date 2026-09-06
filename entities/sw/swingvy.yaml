@@ -51,6 +51,7 @@ offers:
             kind: exact
       consideration:
         kind: variable
+        description: You qualify for our startup programme pricing.
     eligibility:
       rule:
         criterion_id: cri_01
