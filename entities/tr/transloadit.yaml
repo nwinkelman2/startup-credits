@@ -41,7 +41,7 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: Partner portfolio founders can receive up to $2000 in Transloadit credit for their file processing needs.
+          description: $2000 in credits to startup founders in partnered accelerators.
           duration:
             kind: exact
             value: P1Y
