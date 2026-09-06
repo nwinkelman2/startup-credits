@@ -54,7 +54,7 @@ offers:
         criterion_id: cri_01
         kind: manual
         reason: vendor-discretion
-        statement: The applicant must be a startup and receive approval from Fellow through the startup-program application.
+        statement: The applicant must be a startup that applies to Fellow's startup program.
     roles:
       terms_authority_entity_id: ent_k4ahf4qtxzn8mx4v6a6yk7pe62
       access_operator_entity_id: ent_k4ahf4qtxzn8mx4v6a6yk7pe62
