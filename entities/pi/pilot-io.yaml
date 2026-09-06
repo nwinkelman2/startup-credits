@@ -10,6 +10,7 @@ entity:
       valid_from: 2026-09-01T06:00:00.000Z
   category: productivity
 profile:
+  summary: AI-powered knowledge platform for company content, universal search, and internal knowledge sharing.
   description: Pilot is an AI-powered knowledge management platform that centralizes company content, supports universal search, and helps teams create and share internal knowledge.
   links:
     site: https://pilot.io/
@@ -46,7 +47,6 @@ offers:
             kind: up-to
       consideration:
         kind: unknown
-        description: The public page calls this a discounted rate but does not publish any amount payable after applying the credits.
     eligibility:
       rule:
         kind: all
