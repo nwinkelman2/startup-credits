@@ -48,7 +48,7 @@ offers:
             kind: up-to
       consideration:
         kind: variable
-        description: Up to 25% off Fellow for the first year
+        description: Up to 25% off the first year
     eligibility:
       rule:
         criterion_id: cri_01
