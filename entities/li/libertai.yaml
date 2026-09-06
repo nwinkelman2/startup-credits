@@ -10,6 +10,7 @@ entity:
       valid_from: 2026-09-01T00:00:00.000Z
   category: ai-ml
 profile:
+  summary: Private, OpenAI-compatible inference for open-weight models on decentralized infrastructure.
   description: LibertAI provides private, OpenAI-compatible inference for open-weight models on decentralized infrastructure.
   links:
     site: https://libertai.io
@@ -37,7 +38,6 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: Up to $10,000 in inference credits.
           kind: credit
           value:
             amount:
@@ -45,11 +45,9 @@ offers:
               minor_units: 1000000
             kind: up-to
         - benefit_id: ben_02
-          description: Migration support from the LibertAI team.
           kind: other
       consideration:
         kind: unknown
-        description: The public Sovereign Program listing does not state whether any payment is required.
     eligibility:
       rule:
         kind: manual
