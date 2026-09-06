@@ -38,7 +38,7 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: Selected companies can receive LibertAI inference credits.
+          description: Up to $10,000 in inference credits for selected companies building on private inference.
           kind: credit
           value:
             amount:
@@ -46,17 +46,16 @@ offers:
               minor_units: 1000000
             kind: up-to
         - benefit_id: ben_02
-          description: Selected companies can receive migration support from LibertAI.
+          description: Migration support from the LibertAI team.
           kind: other
       consideration:
-        kind: unknown
-        description: The cited source does not establish separate consideration beyond the offer terms.
+        kind: none
     eligibility:
       rule:
         kind: manual
         criterion_id: cri_01
         reason: vendor-discretion
-        statement: Selected early-stage companies building on private inference are eligible.
+        statement: Early-stage teams are eligible, with review handled case by case.
     roles:
       terms_authority_entity_id: ent_01m1d5vpvbvxx3jbdjdd942b21
       access_operator_entity_id: ent_01m1d5vpvbvxx3jbdjdd942b21
