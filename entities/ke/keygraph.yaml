@@ -41,10 +41,12 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
+          description: Eligible startups receive Keygraph Pro free until a graduation event.
           kind: free-service
           service: Keygraph Pro
       consideration:
-        kind: variable
+        kind: unknown
+        description: The cited source does not establish separate consideration beyond the offer terms.
     eligibility:
       rule:
         kind: manual
