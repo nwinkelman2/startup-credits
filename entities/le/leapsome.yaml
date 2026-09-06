@@ -41,7 +41,7 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: Early-stage startups with teams under 50 employees can apply for a 20% discount; for startups affiliated with a Leapsome startup partner, the discount grows to 25%.
+          description: 25% off if affiliated with one of Leapsome's startup partners; 20% off if not affiliated with one of Leapsome's startup partners.
           duration:
             kind: exact
             value: P3Y
