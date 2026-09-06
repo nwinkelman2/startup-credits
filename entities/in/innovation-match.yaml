@@ -8,7 +8,7 @@ entity:
     - value: innovationmatch.io
       role: primary
       valid_from: 2026-09-01T06:45:00.000Z
-  category: marketing
+  category: crm-sales
 profile:
   summary: Business matchmaking, commercial introductions, visibility, and sales outreach.
   description: Innovation Match provides business matchmaking, commercial introductions, events, visibility, and sales-outreach services for innovative companies and solution providers.
