@@ -44,6 +44,7 @@ offers:
             basis_points: 2500
       consideration:
         kind: variable
+        description: 25% off all annual plans for the first year.
     eligibility:
       rule:
         kind: manual
