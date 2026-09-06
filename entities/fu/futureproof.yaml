@@ -38,6 +38,7 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
+          description: Eligible startups receive startup pricing for Futureproof's six-agent finance team.
           kind: other
       consideration:
         amount:
