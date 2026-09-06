@@ -40,7 +40,7 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: 5% cash back on qualifying Zeller Debit Card business purchases, capped at the first AUD $2,000 of eligible spending for a maximum AUD $100 benefit.
+          description: For Eligible Customers who make qualified business payments using a Zeller Debit Card, you will earn 5% cash back on the total transaction value for valid transactions processed with an active Zeller Debit Card, on up to your first $2,000 of payments processed.
           kind: cashback
           value:
             kind: percentage
@@ -49,7 +49,7 @@ offers:
               kind: exact
       consideration:
         kind: variable
-        description: The customer must make qualifying business purchases with an activated Zeller Debit Card; only the first AUD $2,000 of eligible spending earns cash back.
+        description: Qualified business payments must not be Invalid Transactions (as defined in Zeller’s Terms of Service). Refunded transactions are ineligible for cash back.
     eligibility:
       rule:
         kind: all
@@ -66,10 +66,6 @@ offers:
             kind: manual
             reason: external-verification
             statement: Purchases are genuine qualifying business transactions and are not invalid transactions under Zeller's terms.
-          - criterion_id: cri_04
-            kind: manual
-            reason: external-verification
-            statement: The applicant satisfies Zeller's Australian business onboarding and verification requirements.
     roles:
       terms_authority_entity_id: ent_2m72y6dwr3mxt4bcrkyt3pgfb4
       access_operator_entity_id: ent_2m72y6dwr3mxt4bcrkyt3pgfb4
