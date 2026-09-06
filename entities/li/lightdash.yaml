@@ -40,7 +40,7 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: 50% off Lightdash Cloud or Pro for 12 months.
+          description: 50% off Lightdash Cloud or Pro for 12 months
           duration:
             kind: exact
             value: P1Y
@@ -49,14 +49,14 @@ offers:
             basis_points: 5000
             kind: exact
         - benefit_id: ben_02
-          description: Kickoff and training calls with the Lightdash data team.
+          description: Kickoff and training calls with the Lightdash data team
           kind: other
         - benefit_id: ben_03
-          description: Expert support and direct access to the product team for feedback and beta features.
+          description: Expert support and direct access to our product team for feedback and beta features
           kind: other
       consideration:
-        kind: unknown
-        description: The cited source does not establish separate consideration beyond the offer terms.
+        kind: variable
+        description: 50% off Lightdash Cloud or Pro for 12 months
     eligibility:
       rule:
         kind: all
