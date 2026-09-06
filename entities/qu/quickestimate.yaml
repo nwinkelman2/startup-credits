@@ -38,7 +38,7 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: Approved contractors receive 40% off QuickEstimate for 12 months.
+          description: 40% off for the first 12 months
           duration:
             kind: exact
             value: P1Y
@@ -47,8 +47,8 @@ offers:
             kind: exact
             basis_points: 4000
       consideration:
-        kind: unknown
-        description: The cited source does not establish separate consideration beyond the offer terms.
+        kind: variable
+        description: Startup Program pricing is 40% off the selected QuickEstimate plan for the first 12 months.
     eligibility:
       rule:
         kind: all
