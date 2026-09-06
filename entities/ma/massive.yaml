@@ -38,10 +38,12 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
+          description: Eligible startups receive Web Access API bandwidth free for three months.
           duration:
             kind: exact
             value: P3M
           kind: free-service
+          service: Massive Web Access API
       consideration:
         kind: none
     eligibility:
