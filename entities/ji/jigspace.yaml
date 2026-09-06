@@ -48,7 +48,6 @@ offers:
             kind: exact
       consideration:
         kind: unknown
-        description: The published page specifies the discount but does not state the startup's resulting price.
     eligibility:
       rule:
         criterion_id: cri_01
