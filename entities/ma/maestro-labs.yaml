@@ -10,6 +10,7 @@ entity:
       valid_from: 2026-09-01T04:52:00.000Z
   category: communication
 profile:
+  summary: AI tools for email and meeting communication.
   description: Maestro Labs develops AI tools for email and meeting communication, including MailMaestro and TeamsMaestro.
   links:
     site: https://www.maestrolabs.com/
