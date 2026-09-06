@@ -38,11 +38,11 @@ offers:
     economics:
       consideration:
         kind: variable
-        description: Clientia Founders Plan Discount
+        description: Founders rate billed monthly through Stripe.
       benefits:
         - benefit_id: ben_01
           applies_to: Studio or Atelier plans
-          description: Clientia Founders Plan Discount
+          description: Half off Studio or Atelier for 12 months.
           duration:
             kind: exact
             value: P1Y
