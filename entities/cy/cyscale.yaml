@@ -79,10 +79,6 @@ offers:
             value:
               type: number
               value: 2000000
-          - criterion_id: cri_03
-            kind: manual
-            reason: vendor-discretion
-            statement: Cyscale reviews and approves the startup-program application.
     roles:
       terms_authority_entity_id: ent_taskkwqy3r5qfa437er71z6454
       access_operator_entity_id: ent_taskkwqy3r5qfa437er71z6454
