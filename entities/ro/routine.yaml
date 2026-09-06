@@ -38,7 +38,7 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: Approved startups receive Routine Business free for one year.
+          description: Routine Business free for one year.
           kind: free-service
           service: Routine Business plan
           duration:
