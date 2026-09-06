@@ -48,7 +48,6 @@ offers:
             basis_points: 2500
       consideration:
         kind: variable
-        description: StockyTrack prices the selected plan and publishes a 25% startup discount for 12 months.
     eligibility:
       rule:
         criterion_id: cri_01
