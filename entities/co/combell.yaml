@@ -45,9 +45,6 @@ offers:
             value: P1Y
           kind: free-service
           service: hosting services
-        - benefit_id: ben_02
-          description: A dedicated advisory team will guide our Cloud Angels from A to Z and will craft a tailored hosting infrastructure that grows along with their success.
-          kind: other
       consideration:
         kind: none
     eligibility:
