@@ -47,8 +47,8 @@ offers:
           description: Priority placement with a Startup Sponsorship.
           kind: other
       consideration:
-        kind: unknown
-        description: The public startup page does not publish the payable Startup Sponsorship booth price.
+        kind: variable
+        description: A Startup Sponsorship is required to receive the booth-price discount and priority placement.
     eligibility:
       rule:
         kind: all
