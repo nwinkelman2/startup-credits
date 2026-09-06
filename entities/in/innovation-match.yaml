@@ -38,7 +38,7 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: 50% STARTUP DISCOUNT ON PRIME SUBSCRIPTION
+          description: STARTUP DISCOUNT ON PRIME SUBSCRIPTION
           kind: discount
           percentage:
             kind: exact
