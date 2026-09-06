@@ -45,8 +45,8 @@ offers:
           kind: free-service
           service: Keygraph Pro
       consideration:
-        kind: unknown
-        description: The cited source does not establish separate consideration beyond the offer terms.
+        kind: variable
+        description: You connect your own AI provider key and pay your provider directly for inference usage.
     eligibility:
       rule:
         kind: manual
