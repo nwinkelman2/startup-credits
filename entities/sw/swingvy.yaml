@@ -51,7 +51,7 @@ offers:
             kind: exact
       consideration:
         kind: variable
-        description: Startup programme pricing.
+        description: Swingvy offers monthly or yearly subscriptions, and pricing is based on the number of employees in your business.
     eligibility:
       rule:
         criterion_id: cri_01
