@@ -16,7 +16,7 @@ profile:
     site: https://monosnap.ai
 sources:
   - source_id: src_f50d98fc208886c56bb2d6a6ce95c19b959235c655c6fa4b917283724524b2d7
-    url: https://monosnap.zendesk.com/hc/en-us/articles/5536773521682-Monosnap-for-Strartups
+    url: https://monosnap.zendesk.com/api/v2/help_center/en-us/articles/5536773521682.json
   - source_id: src_ad42aec0742ee1d222019a7493c3e88ab7e50ac5be439f4e8af44ae051c898eb
     url: https://monosnap.ai/enterprise
 programs:
