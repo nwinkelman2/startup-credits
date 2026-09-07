@@ -10,7 +10,7 @@ entity:
       valid_from: 2026-08-30T20:53:48.157Z
   category: ai-ml
 profile:
-  description: ManyLayers provides AI model routing, guardrails, budgets, audit logs, team workspaces, RAG, agents, evaluations, and on-prem model deployment.
+  description: ManyLayers is an AI infrastructure platform for model routing, governed team workflows, evaluations, and on-prem model deployment.
   links:
     site: https://manylayers.io
 sources:
