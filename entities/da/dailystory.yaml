@@ -50,18 +50,22 @@ offers:
         - benefit_id: ben_consulting
           description: Up to 1 hour/month digital consulting.
           kind: free-service
+          service: Digital consulting
         - benefit_id: ben_support
           description: Chat, email, and phone support
           kind: other
         - benefit_id: ben_integrations
           description: All native DailyStory integrations
           kind: free-service
+          service: DailyStory integrations
         - benefit_id: ben_guides
           description: All marketing guides, free
           kind: free-service
+          service: DailyStory marketing guides
         - benefit_id: ben_users_api
           description: Unlimited users and API access
           kind: free-service
+          service: DailyStory users and API access
       consideration:
         kind: none
     eligibility:
