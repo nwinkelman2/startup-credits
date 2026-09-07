@@ -71,7 +71,7 @@ offers:
             kind: exact
             value: P6M
       consideration:
-        kind: unknown
+        kind: variable
         description: Nothing for the first six months; $14 a month for months 7–12, $29 for months 13–18, and $44 for months 19–24.
     eligibility:
       rule:
