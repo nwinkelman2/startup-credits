@@ -37,7 +37,7 @@ offers:
       effective_from: 2026-09-01T10:54:53.039Z
     economics:
       consideration:
-        kind: unknown
+        kind: variable
         description: When the investment is received, the company must place the Cloud4Y logo and a link to Cloud4Y on its website home page.
       benefits:
         - benefit_id: ben_01
