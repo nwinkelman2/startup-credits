@@ -60,31 +60,12 @@ offers:
         - benefit_id: ben_04
           description: Possible introductions to Fresh IP's investor network when Fresh IP considers the startup investment-ready.
           kind: other
-      consideration:
-        kind: unknown
-        description: Discounted fees vary by the IP or legal service used.
     eligibility:
       rule:
-        kind: all
-        rules:
-          - criterion_id: cri_01
-            fact: company.stage
-            kind: predicate
-            operator: in
-            statement: The company is at the pre-seed or seed stage.
-            value:
-              type: string-set
-              values:
-                - pre-seed
-                - seed
-          - criterion_id: cri_02
-            kind: manual
-            reason: not-machine-evaluable
-            statement: The applicant is building world-changing technology in Fresh IP's field of focus; Fresh IP currently prioritizes software, particularly AI.
-          - criterion_id: cri_03
-            kind: manual
-            reason: external-verification
-            statement: The applicant uploads an investment pitch deck for Fresh IP's selection review.
+        criterion_id: cri_01
+        kind: manual
+        reason: external-verification
+        statement: Fresh IP chooses pre-seed and seed companies building technology in its field of focus, currently prioritizing software and particularly AI, and requires applicants to upload an investment pitch deck.
     roles:
       terms_authority_entity_id: ent_01m1dk86jmksfm0far14bg97fm
       access_operator_entity_id: ent_01m1dk86jmksfm0far14bg97fm
