@@ -10,6 +10,7 @@ entity:
       valid_from: 2026-09-01T04:22:00.000Z
   category: legal-compliance
 profile:
+  summary: Intellectual-property law firm for emerging technology companies.
   description: Fresh IP is an intellectual-property law firm supporting emerging technology companies with IP strategy, patents, trademarks, and related legal services.
   links:
     site: https://freship.com/
