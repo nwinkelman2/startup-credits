@@ -33,7 +33,7 @@ offers:
         description: The cited source does not establish separate consideration beyond the offer terms.
       benefits:
         - benefit_id: ben_primary
-          description: Redeem your ElevenLabs Founder Pack credits.
+          description: Eligible ElevenLabs Founder Pack members can redeem Browserbase credits.
           kind: other
     eligibility:
       rule:
