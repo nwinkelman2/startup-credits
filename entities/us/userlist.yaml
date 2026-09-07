@@ -58,9 +58,13 @@ offers:
             reason: external-verification
             statement: The applicant must be an early-stage SaaS company.
           - criterion_id: cri_02
-            kind: manual
-            reason: external-verification
+            fact: company.funding_raised_usd
+            kind: predicate
+            operator: lt
             statement: The company must have raised less than USD 500,000 in total funding.
+            value:
+              type: number
+              value: 500000
           - criterion_id: cri_03
             fact: customer.is_new
             kind: predicate
