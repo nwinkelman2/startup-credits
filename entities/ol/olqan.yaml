@@ -39,7 +39,7 @@ offers:
       effective_from: 2026-08-30T20:53:48.157Z
     economics:
       consideration:
-        kind: variable
+        kind: unknown
         description: "Year 1: pay 6 months; year 2: pay 8 months; year 3: pay 10 months."
       benefits:
         - benefit_id: ben_01
