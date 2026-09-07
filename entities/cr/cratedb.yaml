@@ -52,6 +52,10 @@ offers:
           description: Technical audit to ensure a future proof and scalable solution.
           kind: free-service
           service: Support
+        - benefit_id: ben_04
+          description: Monthly meetings and a full review meeting after 10 months of operation.
+          kind: free-service
+          service: Ramp-up
       consideration:
         kind: none
     eligibility:
