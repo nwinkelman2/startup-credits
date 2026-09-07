@@ -10,6 +10,7 @@ entity:
       valid_from: 2026-08-21T18:40:42.000Z
   category: hosting-infra
 profile:
+  summary: Sovereign-cloud, AI-infrastructure, data-center, and managed-technology provider.
   description: Yotta Data Services provides sovereign cloud, AI infrastructure, data centers, and managed technology services for businesses and public-sector organizations.
   links:
     site: https://yotta.com
