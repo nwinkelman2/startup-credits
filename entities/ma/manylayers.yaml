@@ -43,14 +43,14 @@ offers:
         kind: none
       benefits:
         - benefit_id: ben_01
-          description: Free Team tier for 12 months — all features included.
+          description: Full access to ManyLayers Gateway, Workspace, and Deploy at no cost for your first year.
           kind: free-service
-          service: Team tier
+          service: ManyLayers Gateway, Workspace, and Deploy
           duration:
             kind: exact
             value: P1Y
         - benefit_id: ben_02
-          description: Direct access to the ManyLayers engineering team via a shared Slack channel.
+          description: Direct access to our engineering team via a shared Slack channel.
           kind: other
     eligibility:
       rule:
