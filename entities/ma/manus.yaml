@@ -38,7 +38,7 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: Eligible startups unlock 6 months of Manus Team (up to 20 seats, valued at $4,800).
+          description: 6 months of Team Subscription for up to 20 seats
           duration:
             kind: exact
             value: P6M
