@@ -12,6 +12,8 @@ entity:
 profile:
   summary: Cloud browser infrastructure, web data APIs, model routing, and agent tooling.
   description: Browserbase provides cloud browsers, web data APIs, model routing, session observability, and the Stagehand SDK for browser agents and web automation.
+  links:
+    site: https://www.browserbase.com
 sources:
   - source_id: src_35c7020601f380ba2d8cf4e1d75b5824a16b25c54c011cce7cc8cc185576494f
     url: https://www.browserbase.com/11labs-founder-pack
@@ -28,6 +30,7 @@ offers:
     economics:
       consideration:
         kind: unknown
+        description: The cited source does not establish separate consideration beyond the offer terms.
       benefits:
         - benefit_id: ben_primary
           description: Redeem your ElevenLabs Founder Pack credits.
