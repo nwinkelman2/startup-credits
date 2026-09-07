@@ -48,7 +48,7 @@ offers:
             basis_points: 5000
       consideration:
         kind: variable
-        description: Pay for what you use with no hidden fees.
+        description: Approved startups pay Uome's usage-based fees at 50% of the normal price during the first year.
     eligibility:
       rule:
         kind: all
