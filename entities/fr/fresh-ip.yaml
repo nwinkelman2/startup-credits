@@ -60,6 +60,9 @@ offers:
         - benefit_id: ben_04
           description: Possible introductions to Fresh IP's investor network when Fresh IP considers the startup investment-ready.
           kind: other
+      consideration:
+        kind: unknown
+        description: The cited source does not establish separate consideration.
     eligibility:
       rule:
         criterion_id: cri_01
