@@ -62,6 +62,7 @@ offers:
           kind: other
       consideration:
         kind: unknown
+        description: Discounted fees vary by the IP or legal service used.
     eligibility:
       rule:
         kind: all
