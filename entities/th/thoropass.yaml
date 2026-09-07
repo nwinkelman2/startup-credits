@@ -44,8 +44,7 @@ offers:
             kind: exact
             basis_points: 1500
       consideration:
-        kind: variable
-        description: Enjoy 15% off! Special pricing exclusively for JPM Startup Offers.
+        kind: unknown
     eligibility:
       rule:
         criterion_id: cri_01
