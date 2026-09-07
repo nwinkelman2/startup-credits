@@ -36,6 +36,9 @@ offers:
       status: active
       effective_from: 2026-09-01T10:54:53.039Z
     economics:
+      consideration:
+        kind: unknown
+        description: The cited source does not establish separate consideration.
       benefits:
         - benefit_id: ben_01
           description: Cloud4Y invests up to $10,000 in promising startups
