@@ -48,8 +48,8 @@ offers:
             basis_points: 2000
             kind: exact
       consideration:
-        kind: unknown
-        description: The source does not publish the remaining Flex Start Plan subscription price.
+        kind: variable
+        description: Eligible operators pay the discounted OfficeRnD Flex Start Plan subscription price during the first subscription year.
     eligibility:
       rule:
         kind: all
@@ -79,7 +79,7 @@ offers:
       access_operator_entity_id: ent_1wyz9c1zjtj9tnc6en9fr1pmdt
     access:
       availability: public
-      instructions: Use Request Demo to contact OfficeRnD about the Flex Startup Program.
+      instructions: Complete the application form on the OfficeRnD Flex Startup Program page.
       method: form
       url: https://www.officernd.com/campaigns/flex-startup-program/
     terms_url: https://www.officernd.com/campaigns/flex-startup-program/
