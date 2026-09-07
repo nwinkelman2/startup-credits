@@ -53,8 +53,7 @@ offers:
           kind: free-service
           service: Support
       consideration:
-        kind: unknown
-        description: The cited sources do not establish separate consideration.
+        kind: none
     eligibility:
       rule:
         criterion_id: cri_01
