@@ -49,17 +49,19 @@ offers:
           service: DailyStory marketing automation platform
         - benefit_id: ben_consulting
           description: Up to 1 hour/month digital consulting.
-          duration:
-            kind: exact
-            value: P1Y
           kind: free-service
-          service: Digital marketing consulting
         - benefit_id: ben_support
           description: Chat, email, and phone support
           kind: other
-        - benefit_id: ben_platform_access
-          description: All native DailyStory integrations, all marketing guides free, unlimited users, and API access.
-          kind: other
+        - benefit_id: ben_integrations
+          description: All native DailyStory integrations
+          kind: free-service
+        - benefit_id: ben_guides
+          description: All marketing guides, free
+          kind: free-service
+        - benefit_id: ben_users_api
+          description: Unlimited users and API access
+          kind: free-service
       consideration:
         kind: none
     eligibility:
