@@ -45,6 +45,7 @@ offers:
             basis_points: 1500
       consideration:
         kind: unknown
+        description: The source record did not establish separate consideration.
     eligibility:
       rule:
         criterion_id: cri_01
