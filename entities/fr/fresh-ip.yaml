@@ -61,8 +61,7 @@ offers:
           description: Possible introductions to Fresh IP's investor network when Fresh IP considers the startup investment-ready.
           kind: other
       consideration:
-        kind: variable
-        description: The startup pays the remaining fees for discounted Fresh IP services it uses.
+        kind: unknown
     eligibility:
       rule:
         kind: all
