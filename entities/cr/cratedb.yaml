@@ -57,15 +57,13 @@ offers:
           kind: free-service
           service: Ramp-up
       consideration:
-        kind: unknown
-        description: The source record did not establish separate consideration.
+        kind: none
     eligibility:
       rule:
         criterion_id: cri_01
-        kind: manual
-        reason: vendor-discretion
-        statement: CrateDB reviews startup applicants through its contact process and may evaluate the proposed
-          deployment and use case before confirming qualification and the credit amount.
+        kind: constant
+        statement: The CrateDB Startup Pack is available to startup applicants through the program page.
+        value: true
     roles:
       terms_authority_entity_id: ent_a78bd21pnxya0djgn5t98c39zs
       access_operator_entity_id: ent_a78bd21pnxya0djgn5t98c39zs
