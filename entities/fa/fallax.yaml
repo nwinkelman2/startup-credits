@@ -10,6 +10,7 @@ entity:
       valid_from: 2026-08-31T09:57:31.607Z
   category: legal-compliance
 profile:
+  summary: Internal phishing simulation and security-awareness training that doubles as audit evidence.
   description: Fallax provides internal phishing simulation and security-awareness training that doubles as audit evidence.
   links:
     site: https://fallax.io
@@ -40,8 +41,8 @@ offers:
         description: The first 10 seats remain free; the startup pays 20% of the published rate for seats above 10 during the 12-month term.
       benefits:
         - benefit_id: ben_01
-          applies_to: Fallax seats above the standard 10 free seats
-          description: 80% off the published Fallax rate for 12 months, with the whole product included
+          applies_to: Fallax published rate card
+          description: 80% off the published rate for 12 months
           kind: discount
           percentage:
             kind: exact
