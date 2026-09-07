@@ -87,8 +87,9 @@ offers:
       access_operator_entity_id: ent_01m1bm0w6jmxdge32e4qhrhbmh
     access:
       availability: public
-      method: form
+      method: other
       url: https://lodgestory.com/signup
+      instructions: Sign up with the Free Forever Plan, then apply for the Early Stage Program.
     source_ids:
       - src_82d33385765de8048e06f188d514040041a042bb78683d0447b57c2b4286ab90
       - src_82d33385765de8048e06f188d514040041a042bb78683d0447b57c2b4286ab91
