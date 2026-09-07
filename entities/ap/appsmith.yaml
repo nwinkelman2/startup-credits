@@ -74,13 +74,9 @@ offers:
               type: number
               value: 10000000
           - criterion_id: cri_03
-            fact: company.age_months
-            kind: predicate
-            operator: lt
+            kind: manual
+            reason: external-verification
             statement: Applicant was incorporated less than two years ago.
-            value:
-              type: number
-              value: 24
           - criterion_id: cri_04
             kind: manual
             statement: Applicant is looking to host Appsmith on its own infrastructure.
