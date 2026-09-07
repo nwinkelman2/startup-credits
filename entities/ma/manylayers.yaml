@@ -43,14 +43,14 @@ offers:
         kind: none
       benefits:
         - benefit_id: ben_01
-          description: Free Team tier for 12 months with all features included.
+          description: Free Team tier for 12 months — all features included.
           kind: free-service
-          service: ManyLayers Team tier
+          service: Team tier
           duration:
             kind: exact
             value: P1Y
         - benefit_id: ben_02
-          description: Dedicated Slack channel with engineering support.
+          description: Direct access to the ManyLayers engineering team via a shared Slack channel.
           kind: other
     eligibility:
       rule:
