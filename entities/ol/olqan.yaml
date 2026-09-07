@@ -10,6 +10,7 @@ entity:
       valid_from: 2026-08-30T20:53:48.157Z
   category: productivity
 profile:
+  summary: One business platform for sales, projects, finance, HR, tickets, procurement, and analytics.
   description: Olqan unifies CRM, project management, finance, HR, support, procurement, and analytics in one business operations platform.
   links:
     site: https://olqan.com
@@ -39,7 +40,7 @@ offers:
     economics:
       consideration:
         kind: variable
-        description: Startups pay for six months in year one, eight months in year two, and ten months in year three.
+        description: "Year 1: pay 6 months; year 2: pay 8 months; year 3: pay 10 months."
       benefits:
         - benefit_id: ben_01
           description: Pay for six months and get six months free in year one
