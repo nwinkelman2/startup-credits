@@ -23,7 +23,7 @@ programs:
     program_slug: lodgestory-early-stage-program
     program_slug_aliases: []
     title: Lodgestory Early Stage Program
-    summary: The Early Stage Program gives startups the Advanced Plan through a structured three-year discount: 90% in year one, 50% in year two, and 25% in year three.
+    summary: "The Early Stage Program gives startups the Advanced Plan through a structured three-year discount: 90% in year one, 50% in year two, and 25% in year three."
     source_ids:
       - src_82d33385765de8048e06f188d514040041a042bb78683d0447b57c2b4286ab90
 offers:
