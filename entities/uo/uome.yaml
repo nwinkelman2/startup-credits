@@ -10,6 +10,7 @@ entity:
       valid_from: 2026-09-01T05:24:00.000Z
   category: apis-integration
 profile:
+  summary: APIs and business infrastructure for accounts, billing, payments, point of sale, customer management, and tax workflows.
   description: Uome provides APIs and business infrastructure for accounts, billing, payments, point of sale, customer management, and tax workflows.
   links:
     site: https://www.myuome.com/
@@ -57,13 +58,9 @@ offers:
             reason: external-verification
             statement: The company has raised no more than £2,000,000 in funding.
           - criterion_id: cri_02
-            fact: company.age_months
-            kind: predicate
-            operator: lt
-            statement: The company is less than three years old.
-            value:
-              type: number
-              value: 36
+            kind: manual
+            reason: external-verification
+            statement: The company is under 3 years old.
     roles:
       terms_authority_entity_id: ent_2nz24mb2w5yc5s4764jhdnbgc7
       access_operator_entity_id: ent_2nz24mb2w5yc5s4764jhdnbgc7
