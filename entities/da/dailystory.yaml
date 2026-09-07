@@ -60,12 +60,10 @@ offers:
           service: DailyStory integrations
         - benefit_id: ben_guides
           description: All marketing guides, free
-          kind: free-service
-          service: DailyStory marketing guides
+          kind: other
         - benefit_id: ben_users_api
           description: Unlimited users and API access
-          kind: free-service
-          service: DailyStory users and API access
+          kind: other
       consideration:
         kind: none
     eligibility:
