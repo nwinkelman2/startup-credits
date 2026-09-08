@@ -48,10 +48,40 @@ offers:
         kind: none
     eligibility:
       rule:
-        criterion_id: cri_01
-        kind: manual
-        reason: external-verification
-        statement: The applicant must be a non-paying Routine startup moving to the Business plan, have fewer than 20 employees and less than $2 million in funding, and use a public company website with a unique company email domain; the company must not have undergone a change of control or IPO, and Routine may require partner affiliation or a minimum funding level.
+        kind: all
+        rules:
+          - criterion_id: cri_01
+            kind: manual
+            reason: external-verification
+            statement: The applicant must be a non-paying Routine customer moving to the Routine Business plan.
+          - criterion_id: cri_02
+            fact: company.employee_count
+            kind: predicate
+            operator: lt
+            statement: The company must have fewer than 20 employees.
+            value:
+              type: number
+              value: 20
+          - criterion_id: cri_03
+            fact: company.funding_raised_usd
+            kind: predicate
+            operator: lt
+            statement: The company must have received less than $2 million in funding.
+            value:
+              type: number
+              value: 2000000
+          - criterion_id: cri_04
+            kind: manual
+            reason: external-verification
+            statement: The applicant must have a public company website and a unique company email domain.
+          - criterion_id: cri_05
+            kind: manual
+            reason: external-verification
+            statement: The company must not have undergone a change of control or initial public offering.
+          - criterion_id: cri_06
+            kind: manual
+            reason: vendor-discretion
+            statement: Routine may require a minimum funding level when the applicant is not affiliated with a Routine funding partner.
     roles:
       terms_authority_entity_id: ent_01m1gsqpe7gbmbn7m01f18gsgz
       access_operator_entity_id: ent_01m1gsqpe7gbmbn7m01f18gsgz
