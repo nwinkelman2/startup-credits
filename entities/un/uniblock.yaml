@@ -22,7 +22,7 @@ programs:
     program_slug: uniblock-startup-program
     program_slug_aliases: []
     title: Uniblock Startup Program
-    summary: Uniblock gives eligible early-stage blockchain-data teams up to $10,000 in credits on its annual plan, with provider routing and engineering support.
+    summary: Uniblock's startup program offers up to $10,000 in credits on its annual plan.
     source_ids:
       - src_1f59b9d938be567a5b8c22f9747b2e98b8196f819b668a2fb20208051e9f821c
 offers:
