@@ -25,8 +25,7 @@ programs:
     program_slug: startup-pack
     program_slug_aliases: []
     title: CrateDB Startup Pack
-    summary: CrateDB helps qualifying startups adopt CrateDB Cloud with usage credits, hands-on setup,
-      data-engineering guidance, support, and recurring technical reviews.
+    summary: CrateDB's Startup Pack provides CrateDB Cloud credits and professional services from its data engineering team, including setup, support, and ramp-up assistance.
     source_ids:
       - src_d23ecce237ddccb20a3fa2b714f15afd287826009005ce020c23b808345b776b
 offers:
@@ -35,7 +34,7 @@ offers:
     offer_slug: cloud-credits-and-data-engineering-services
     offer_slug_aliases: []
     title: CrateDB Startup Pack
-    summary: The CrateDB Startup Pack offers cloud-service credits and professional services from CrateDB's data-engineering team.
+    summary: The Startup Pack includes a vendor-determined number of CrateDB Cloud credits plus setup, support, and ramp-up services from CrateDB's data engineering team.
     lifecycle:
       status: active
       effective_from: 2026-09-01T09:30:47.439Z
@@ -46,18 +45,18 @@ offers:
           kind: other
         - benefit_id: ben_02
           description: 3 hours of consulting to address use cases, architecture, imports and other miscellaneous topics.
-          kind: free-service
+          kind: other
           service: Setup
         - benefit_id: ben_03
           description: Technical audit to ensure a future proof and scalable solution.
-          kind: free-service
+          kind: other
           service: Support
         - benefit_id: ben_04
           description: Monthly meetings and a full review meeting after 10 months of operation.
-          kind: free-service
+          kind: other
           service: Ramp-up
       consideration:
-        kind: none
+        kind: unknown
     eligibility:
       rule:
         criterion_id: cri_01
