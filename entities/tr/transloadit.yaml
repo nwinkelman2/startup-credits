@@ -10,7 +10,7 @@ entity:
       valid_from: 2026-09-01T09:12:44.086Z
   category: apis-integration
 profile:
-  summary: APIs for uploading, encoding, and processing images, video, audio, and documents.
+  summary: "APIs for uploading, encoding, and processing images, video, audio, and documents."
   description: Transloadit provides APIs for uploading, encoding, and processing images, video, audio,
     and documents.
   links:
