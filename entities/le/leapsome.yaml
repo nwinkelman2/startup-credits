@@ -41,8 +41,7 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: 20% off Leapsome, or 25% off for startups affiliated with one of Leapsome's startup partners, valid for 3 years no matter how the startup scales
-          applies_to: Leapsome subscription
+          description: A 20% discount, growing to 25% for startups affiliated with a Leapsome startup partner, valid for 3 years no matter how you scale in the meantime
           duration:
             kind: exact
             value: P3Y
@@ -53,7 +52,7 @@ offers:
             maximum_basis_points: 2500
       consideration:
         kind: variable
-        description: The startup pays Leapsome's price for the modules it chooses, which can be bought individually or combined, less the startup discount.
+        description: The startup receives a 20% discount, or 25% if affiliated with a Leapsome startup partner, valid for 3 years.
     eligibility:
       rule:
         kind: all
