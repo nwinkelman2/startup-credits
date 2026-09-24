@@ -10,9 +10,8 @@ entity:
       valid_from: 2026-09-01T09:30:47.439Z
   category: databases
 profile:
-  summary: Distributed SQL database for real-time analytics.
-  description: CrateDB provides a distributed SQL database for real-time analytics across relational,
-    time-series, geospatial, full-text, and vector data.
+  summary: CrateDB is a distributed SQL database for real-time analytics, offered as CrateDB Cloud, CrateDB Enterprise, and open source.
+  description: CrateDB provides a distributed SQL database for real-time analytics across relational, time-series, geospatial, full-text, and vector data.
   links:
     site: https://cratedb.com
 sources:
@@ -34,33 +33,33 @@ offers:
     offer_slug: cloud-credits-and-data-engineering-services
     offer_slug_aliases: []
     title: CrateDB Startup Pack
-    summary: The Startup Pack includes a vendor-determined number of CrateDB Cloud credits plus setup, support, and ramp-up services from CrateDB's data engineering team.
+    summary: Startups that qualify get a set number of CrateDB Cloud credits plus setup, support, and ramp-up services from CrateDB's data engineering team, including 3 hours of consulting.
     lifecycle:
       status: active
       effective_from: 2026-09-01T09:30:47.439Z
     economics:
       benefits:
         - benefit_id: ben_01
-          description: A specific number of credits for the CrateDB cloud service
+          description: A specific number of credits for the CrateDB Cloud service to help get started
           kind: other
         - benefit_id: ben_02
-          description: 3 hours of consulting to address use cases, architecture, imports and other miscellaneous topics.
+          description: Setup with 3 hours of consulting on use cases, architecture, imports and other topics, hands-on cluster setup, and analysis of the initial dataset to import
           kind: other
         - benefit_id: ben_03
-          description: Technical audit to ensure a future proof and scalable solution.
+          description: Support with consultative inquiries for feedback and best practices advice, plus a technical audit of the solution
           kind: other
         - benefit_id: ben_04
-          description: Monthly meetings and a full review meeting after 10 months of operation.
+          description: Ramp-up with monthly meetings and a full review meeting after 10 months of operation
           kind: other
       consideration:
         kind: unknown
-        description: The public Startup Pack page does not establish separate consideration.
+        description: The cited source does not establish separate consideration.
     eligibility:
       rule:
         criterion_id: cri_01
-        kind: constant
-        statement: The CrateDB Startup Pack is available to startup applicants through the program page.
-        value: true
+        kind: manual
+        reason: vendor-discretion
+        statement: The applicant is a startup; CrateDB decides whether it qualifies after the startup contacts CrateDB through the Startup Pack page.
     roles:
       terms_authority_entity_id: ent_a78bd21pnxya0djgn5t98c39zs
       access_operator_entity_id: ent_a78bd21pnxya0djgn5t98c39zs
@@ -68,8 +67,7 @@ offers:
       availability: public
       method: contact
       url: https://cratedb.com/pricing/startups
-      instructions: Contact CrateDB through the Startup Pack page to ask whether the startup qualifies;
-        applicants may also complete the linked Deployment Assessment to begin use-case evaluation.
+      instructions: Contact CrateDB from the Startup Pack page to see if the startup qualifies. CrateDB also suggests filling out its Deployment Assessment to start the use-case evaluation.
     terms_url: https://cratedb.com/pricing/startups
     source_ids:
       - src_d23ecce237ddccb20a3fa2b714f15afd287826009005ce020c23b808345b776b
