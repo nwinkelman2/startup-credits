@@ -10,7 +10,7 @@ entity:
       valid_from: 2026-09-01T07:08:28.830Z
   category: banking
 profile:
-  summary: Business accounts, cards, expense management, invoicing, and payment-acceptance tools.
+  summary: Zeller is an Australian provider of business transaction and savings accounts, debit and corporate cards, expense management, invoicing, and EFTPOS payments.
   description: Zeller provides business accounts, debit and corporate cards, expense management, invoicing, point-of-sale, and payment-acceptance tools.
   links:
     site: https://www.myzeller.com/
@@ -24,7 +24,7 @@ programs:
     program_slug: zeller-for-startups
     program_slug_aliases: []
     title: Zeller for Startups
-    summary: Zeller gives Australian startup founders an integrated financial account, cards, expense management, reporting, and startup-specific rewards.
+    summary: Zeller for Startups is a free all-in-one financial account for founders, with business accounts, debit cards, expense management, reporting, and founder rewards.
     source_ids:
       - src_d561c3fc4dc978bbdead38dc6432b5464030746f04db0eefb28522ef62cfcf6d
       - src_4e992114a06135ae66561fa04c6d282812a84a855e519d5e99312c3c95541db2
@@ -34,14 +34,14 @@ offers:
     offer_slug: five-percent-debit-card-cashback
     offer_slug_aliases: []
     title: 5% Zeller Debit Card Cashback for Startups
-    summary: New Zeller for Startups customers earn 5% cash back on valid business payments made with an active Zeller Debit Card, on up to the first $2,000 of payments processed.
+    summary: New Zeller for Startups customers earn 5% cash back on qualified business payments made with an active Zeller Debit Card, on up to their first $2,000 of payments processed.
     lifecycle:
       status: active
       effective_from: 2026-09-01T07:08:28.830Z
     economics:
       benefits:
         - benefit_id: ben_01
-          description: 5% cash back on transactions processed with Zeller Debit Card.
+          description: 5% cash back on the total value of valid transactions processed with an active Zeller Debit Card, on up to the first $2,000 of payments processed.
           kind: cashback
           value:
             kind: percentage
@@ -49,13 +49,14 @@ offers:
               basis_points: 500
               kind: exact
       consideration:
-        kind: none
+        kind: variable
+        description: Cash back is earned only on qualified business payments the startup makes with its Zeller Debit Card; refunded transactions do not count.
     eligibility:
       rule:
         criterion_id: cri_01
         kind: manual
         reason: external-verification
-        statement: Offer is valid only for new Zeller for Startups customers who activate and successfully onboard for a new Zeller for Startups account.
+        statement: The offer is valid only for new Zeller for Startups customers who activate and onboard a new Zeller for Startups account with an activated Zeller Transaction Account and Zeller Debit Card.
     roles:
       terms_authority_entity_id: ent_2m72y6dwr3mxt4bcrkyt3pgfb4
       access_operator_entity_id: ent_2m72y6dwr3mxt4bcrkyt3pgfb4
