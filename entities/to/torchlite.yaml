@@ -24,7 +24,7 @@ programs:
     program_slug: torchlite-prm-for-startups
     program_slug_aliases: []
     title: Torchlite PRM for Startups
-    summary: Torchlite's PRM for Startups gives early-stage partner programs 75% off the first year, 50% off the second year, and no-cost CRM integration.
+    summary: PRM For Startups offers early-stage partner programs and businesses a 75% first year discount, a 50% second year discount, and no-cost CRM integration.
     source_ids:
       - src_758f1935732bac50f81e8b3d79886763f52ce28cc784a912dc98feebb25eb11d
 offers:
@@ -39,8 +39,7 @@ offers:
       effective_from: 2026-09-01T08:11:17.0643742Z
     economics:
       benefits:
-        - applies_to: Torchlite PRM software
-          benefit_id: ben_01
+        - benefit_id: ben_01
           description: 75% discount for the first year
           duration:
             kind: exact
@@ -49,9 +48,8 @@ offers:
           percentage:
             basis_points: 7500
             kind: exact
-        - applies_to: Torchlite PRM software
-          benefit_id: ben_02
-          description: 50% discount in the second year
+        - benefit_id: ben_02
+          description: A 50% discount in your second year
           duration:
             kind: exact
             value: P1Y
@@ -60,7 +58,7 @@ offers:
             basis_points: 5000
             kind: exact
         - benefit_id: ben_03
-          description: No-cost integration of the startup's existing CRM, such as Salesforce or HubSpot
+          description: No-cost CRM integration of your existing CRM system, with free integration for popular platforms like Salesforce and HubSpot
           kind: other
       consideration:
         kind: variable
@@ -76,7 +74,6 @@ offers:
       access_operator_entity_id: ent_4hd29w001wcx2y8sbc1pyv4awv
     access:
       availability: public
-      instructions: Apply from the PRM for Startups page, whose linked contact route is Torchlite's Book a Demo form.
       method: form
       url: https://torchlite.com/book-a-demo/
     terms_url: https://torchlite.com/prm-for-startups/
