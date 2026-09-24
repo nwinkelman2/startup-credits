@@ -38,13 +38,10 @@ offers:
     economics:
       consideration:
         kind: variable
-        description: Once the investment is received, the startup must place the Cloud4Y logo and a link to Cloud4Y on the home page of its website.
+        description: When the investment is received, the company must place the Cloud4Y logo and a link to Cloud4Y on its website home page.
       benefits:
         - benefit_id: ben_01
-          description: Up to $10,000 invested by Cloud4Y in the most promising startups, under its cloud infrastructure for startups program
-          kind: other
-        - benefit_id: ben_02
-          description: Access to Cloud4Y's established ecosystem of partners and clients
+          description: Cloud4Y invests up to $10,000 in the most promising startups
           kind: other
     eligibility:
       rule:
