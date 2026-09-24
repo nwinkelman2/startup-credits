@@ -49,7 +49,7 @@ offers:
             kind: exact
       consideration:
         kind: variable
-        description: The startup pays $249.50 a month for Unlimited during the 12 months, then $499 a month; Search, other packages, and pay-as-you-go usage are billed at full price.
+        description: The startup receives 50% off its Unlimited subscription for 12 months.
     eligibility:
       rule:
         criterion_id: cri_01
