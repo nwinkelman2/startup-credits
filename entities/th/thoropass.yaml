@@ -38,20 +38,20 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: Enjoy 15% off! Special pricing exclusively for JPM Startup Offers.
+          description: 15% off Thoropass as special pricing exclusively for JPM Startup Offers participants.
           kind: discount
           percentage:
             kind: exact
             basis_points: 1500
       consideration:
         kind: unknown
-        description: The source record did not establish separate consideration.
+        description: The page does not publish the Thoropass price that the 15% discount applies to.
     eligibility:
       rule:
         criterion_id: cri_01
         kind: manual
         reason: external-verification
-        statement: The applicant is eligible for and participates in JPM Startup Offers.
+        statement: The startup is a participant in JPM Startup Offers.
     roles:
       terms_authority_entity_id: ent_38ckgg56c38z4yf9dqjhddbt16
       access_operator_entity_id: ent_38ckgg56c38z4yf9dqjhddbt16
@@ -59,7 +59,6 @@ offers:
       availability: membership
       method: contact
       url: https://info.thoropass.com/jpm-startup-offers
-      instructions: Sign up to learn more about Thoropass and see a demo.
-    terms_url: https://info.thoropass.com/jpm-startup-offers
+      instructions: Submit the Get in Touch form on Thoropass's JPM Startup Offers page to learn more and see a demo.
     source_ids:
       - src_0f8a424756e888a98051ee2d2a3c614e090853c4f9303b48dc93a22f3560b59c
