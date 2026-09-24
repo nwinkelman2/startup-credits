@@ -8,15 +8,17 @@ entity:
     - value: fallax.io
       role: primary
       valid_from: 2026-08-31T09:57:31.607Z
-  category: legal-compliance
+  category: auth-security
 profile:
-  summary: Internal phishing simulation and security-awareness training that doubles as audit evidence.
+  summary: Fallax runs phishing simulations inside a company's Google Workspace or Microsoft 365 tenant, with security-awareness training and audit evidence.
   description: Fallax provides internal phishing simulation and security-awareness training that doubles as audit evidence.
   links:
     site: https://fallax.io
 sources:
   - source_id: src_b4626effcd583dfe0fef2e98ff6071521cfac3737fd830ec0bbd4206adab5c73
     url: https://fallax.io/startups
+  - source_id: src_498fbb8aff3422489ae5026349599875beb08192cee40f96cc4d4daa0200412a
+    url: https://fallax.io/
 programs:
   - program_id: prg_01m1bm0w52abpwmcfw1954nahp
     program_slug: fallax-for-startups
@@ -54,7 +56,7 @@ offers:
       rule:
         kind: manual
         criterion_id: cri_01
-        statement: The company must have fewer than 100 people including contractors, have raised no more than USD 10 million, be founded within the past three years, be new to Fallax, use it for its own staff, and apply within 90 days of signup.
+        statement: The company must have fewer than 100 people including contractors, have raised EUR 10,000,000 or less across all rounds, be founded within the last 3 years, be new to Fallax, use it for its own staff, and apply within 90 days of signup.
         reason: vendor-discretion
     roles:
       terms_authority_entity_id: ent_01m1bm0w51ntzz3znbpbznjev0
