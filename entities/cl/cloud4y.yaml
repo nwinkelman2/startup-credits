@@ -10,7 +10,7 @@ entity:
       valid_from: 2026-09-01T10:54:53.039Z
   category: hosting-infra
 profile:
-  summary: "Managed cloud infrastructure, virtual servers, storage, and disaster recovery."
+  summary: Cloud4Y is a cloud provider offering cloud and GPU servers, storage and backup, disaster recovery, security services, and managed IT services.
   description: Cloud4Y provides managed cloud infrastructure, virtual servers, storage, disaster recovery, and related services.
   links:
     site: https://www.cloud4y.ru/en/
@@ -38,10 +38,10 @@ offers:
     economics:
       consideration:
         kind: variable
-        description: When the investment is received, the company must place the Cloud4Y logo and a link to Cloud4Y on its website home page.
+        description: Once the investment is received, the startup must place the Cloud4Y logo and a link to Cloud4Y on the home page of its website.
       benefits:
         - benefit_id: ben_01
-          description: Cloud4Y invests up to $10,000 in promising startups
+          description: Up to $10,000 invested by Cloud4Y in the most promising startups, under its cloud infrastructure for startups program
           kind: other
         - benefit_id: ben_02
           description: Access to Cloud4Y's established ecosystem of partners and clients
@@ -93,10 +93,6 @@ offers:
           - criterion_id: cri_08
             kind: manual
             statement: Applicant has a website on a company-owned domain, and the contact email uses the same domain.
-            reason: external-verification
-          - criterion_id: cri_09
-            kind: manual
-            statement: A recipient must place the Cloud4Y logo and a link to Cloud4Y on the homepage of its website.
             reason: external-verification
     roles:
       terms_authority_entity_id: ent_5hj2mqkhgvyxcxe0p7t2a4z7pd
