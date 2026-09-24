@@ -42,7 +42,7 @@ offers:
         kind: none
       benefits:
         - benefit_id: ben_01
-          description: $8,192 in turbopuffer credits, valid for 12 months from the date they are applied to the account
+          description: $8,192 in credits
           kind: credit
           value:
             amount:
