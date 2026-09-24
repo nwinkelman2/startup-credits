@@ -42,7 +42,7 @@ offers:
       benefits:
         - applies_to: OfficeRnD Flex Start Plan
           benefit_id: ben_01
-          description: 20% annual discount on the OfficeRnD Flex Start Plan for the first year of subscription
+          description: A 20% annual discount with the Flex Startup Program
           duration:
             kind: exact
             value: P1Y
@@ -52,7 +52,7 @@ offers:
             kind: exact
       consideration:
         kind: variable
-        description: The operator subscribes to the OfficeRnD Flex Start Plan and pays its subscription price less the startup discount during the first year.
+        description: The startup receives advanced OfficeRnD features at a discount for the first year.
     eligibility:
       rule:
         kind: all
@@ -82,7 +82,6 @@ offers:
       access_operator_entity_id: ent_1wyz9c1zjtj9tnc6en9fr1pmdt
     access:
       availability: public
-      instructions: Use the "Ready to take the next step?" form on the OfficeRnD Flex Startup Program page to reach the OfficeRnD team.
       method: form
       url: https://www.officernd.com/campaigns/flex-startup-program/
     terms_url: https://www.officernd.com/campaigns/flex-startup-program/
