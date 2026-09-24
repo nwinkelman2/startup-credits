@@ -40,10 +40,10 @@ offers:
     economics:
       consideration:
         kind: variable
-        description: After the free credits are used, compute is billed on a pay-as-you-go basis at a 50% discount.
+        description: The startup receives a 50% discount on computing usage with pay-as-you-go billing after using its free credits.
       benefits:
         - benefit_id: ben_01
-          description: €6,000 in Qarnot cloud credits for the first six months
+          description: €6,000 free credits for the first six months
           kind: credit
           value:
             amount:
@@ -54,18 +54,15 @@ offers:
             kind: exact
             value: P6M
         - benefit_id: ben_02
-          description: 50% off compute usage after the free credits are used
+          description: After using your free credits, a 50% discount on computing usage with pay-as-you-go billing
           kind: discount
           percentage:
             kind: exact
             basis_points: 5000
         - benefit_id: ben_03
-          description: No data-transfer fees
+          description: No data transfer fees
           kind: waiver
-          waived_item: Data-transfer fees
-        - benefit_id: ben_04
-          description: Dedicated technical support, including a one-on-one consultation with a specialized engineer to simplify integration
-          kind: other
+          waived_item: Data transfer fees
     eligibility:
       rule:
         kind: manual
