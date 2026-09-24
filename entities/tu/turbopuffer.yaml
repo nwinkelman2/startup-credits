@@ -10,27 +10,30 @@ entity:
       valid_from: 2026-09-01T10:51:22.312Z
   category: databases
 profile:
-  description: turbopuffer is a search engine for unstructured data built on object storage with a caching layer.
+  summary: turbopuffer is a vector and full-text search engine built on object storage, used to connect large amounts of unstructured data to AI.
+  description: turbopuffer is a search engine for unstructured data built on object storage with an intelligent cache layer, offering vector and full-text search.
   links:
     site: https://turbopuffer.com
 sources:
   - source_id: src_2f46f2e0a117ed5558a9d9513d217c36ddcddef5fde67ea334e2e4a2b2d1e1bf
     url: https://turbopuffer.com/startups
+  - source_id: src_49aca5edc5dd67665f09aca78d9982e9ab96ded4ece85c4f26e38e8c0aab0c6c
+    url: https://turbopuffer.com/
 programs:
   - program_id: prg_18trf4fastz24zk98qnnchgrqq
     program_slug: turbopuffer-for-startups
     program_slug_aliases: []
     title: turbopuffer for startups
-    summary: turbopuffer offers platform credits to qualifying startups and scaleups through its partner network.
+    summary: turbopuffer offers credits to a select number of startups through its partners, who share a code the startup uses to apply.
     source_ids:
       - src_2f46f2e0a117ed5558a9d9513d217c36ddcddef5fde67ea334e2e4a2b2d1e1bf
 offers:
   - offer_id: off_aepsn116ms7sdr4ew6vt18gfwh
     program_id: prg_18trf4fastz24zk98qnnchgrqq
-    offer_slug: startup-and-scaleup-credits
+    offer_slug: startup-credits
     offer_slug_aliases: []
-    title: Up to $8,192 in turbopuffer credits for startups and scaleups
-    summary: Partner-referred startups receive $8,192 in credits; scaleups receive $2,048 in credits and a dedicated Slack channel.
+    title: $8,192 in turbopuffer credits for startups
+    summary: Startups with fewer than 50 employees and less than $50M raised that apply with a turbopuffer partner code get $8,192 in credits, valid for 12 months from when they are applied.
     lifecycle:
       status: active
       effective_from: 2026-09-01T10:51:22.312Z
@@ -39,28 +42,46 @@ offers:
         kind: none
       benefits:
         - benefit_id: ben_01
-          description: Up to $8,192 in turbopuffer credits according to the applicant's startup or scaleup tier
+          description: $8,192 in turbopuffer credits, valid for 12 months from the date they are applied to the account
           kind: credit
           value:
             amount:
               currency: USD
               minor_units: 819200
-            kind: up-to
-        - benefit_id: ben_02
-          description: A dedicated Slack channel with turbopuffer for qualifying scaleups
-          kind: other
+            kind: exact
+          duration:
+            kind: exact
+            value: P12M
     eligibility:
       rule:
-        criterion_id: cri_01
-        kind: manual
-        statement: Applicant must have a partner code. Startups with fewer than 50 employees and less than $50 million raised receive $8,192; larger scaleups receive $2,048 and a dedicated Slack channel.
-        reason: external-verification
+        kind: all
+        rules:
+          - criterion_id: cri_01
+            kind: manual
+            reason: external-verification
+            statement: The startup applies with a code provided by a turbopuffer partner; each company can apply via one partner only.
+          - criterion_id: cri_02
+            fact: company.employee_count
+            kind: predicate
+            operator: lt
+            statement: The startup has fewer than 50 employees.
+            value:
+              type: number
+              value: 50
+          - criterion_id: cri_03
+            fact: company.funding_raised_usd
+            kind: predicate
+            operator: lt
+            statement: The startup has raised less than $50M.
+            value:
+              type: number
+              value: 50000000
     roles:
       terms_authority_entity_id: ent_y312gb12x5ee43e6kftfb5b2qp
       access_operator_entity_id: ent_y312gb12x5ee43e6kftfb5b2qp
     access:
       availability: referral
-      instructions: Create a turbopuffer account, retrieve the organization ID from organization settings, and submit the public startup application using the code supplied by a shared turbopuffer partner.
+      instructions: Sign up for turbopuffer, copy the Org ID from Settings > Organization, and submit the application on the startups page with the partner code. turbopuffer confirms when the credits are applied.
       method: form
       url: https://turbopuffer.com/startups
     terms_url: https://turbopuffer.com/startups
