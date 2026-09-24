@@ -10,19 +10,22 @@ entity:
       valid_from: 2026-09-01T08:01:38.6039888Z
   category: productivity
 profile:
-  summary: Management software for coworking and flexible-workspace operators.
-  description: OfficeRnD provides management software for coworking and flexible-workspace operators, including member apps, bookings, billing, integrations, access workflows, analytics, and multi-location operations.
+  summary: OfficeRnD makes management software for coworking and flexible workspace operators and for hybrid workplaces.
+  description: OfficeRnD provides coworking and flexible workspace management software with member apps, room and desk bookings, billing, integrations, and reporting.
   links:
     site: https://www.officernd.com
+    pricing: https://www.officernd.com/pricing/flex/
 sources:
   - source_id: src_e91e9602125a3e9e1795c60522d4a5161131a49384be9d3a512691668ccdb31e
     url: https://www.officernd.com/campaigns/flex-startup-program/
+  - source_id: src_ce934489b21c6154bfc84af230d2b8b6ac23f7503d5a73a48f97b2ae32072bcc
+    url: https://www.officernd.com/pricing/flex/
 programs:
   - program_id: prg_m63f9xpvbnbq62r5c1w8gs04zc
     program_slug: officernd-flex-startup-program
     program_slug_aliases: []
     title: OfficeRnD Flex Startup Program
-    summary: Eligible operators get advanced OfficeRnD features at a 20% annual discount for the first subscription year.
+    summary: Eligible coworking operators get advanced OfficeRnD Flex features at a 20% annual discount for the first year of subscription.
     source_ids:
       - src_e91e9602125a3e9e1795c60522d4a5161131a49384be9d3a512691668ccdb31e
 offers:
@@ -31,7 +34,7 @@ offers:
     offer_slug: twenty-percent-off-flex-start-plan-for-one-year
     offer_slug_aliases: []
     title: 20% annual discount with the Flex Startup Program
-    summary: Eligible coworking spaces receive 20% off the OfficeRnD Flex Start Plan for the first subscription year.
+    summary: New coworking spaces under two years old with fewer than 200 members that are not OfficeRnD customers get a 20% annual discount on the Flex Start Plan for the first year.
     lifecycle:
       status: active
       effective_from: 2026-09-01T08:01:38.6039888Z
@@ -39,7 +42,7 @@ offers:
       benefits:
         - applies_to: OfficeRnD Flex Start Plan
           benefit_id: ben_01
-          description: 20% annual discount on the OfficeRnD Flex Start Plan for the first subscription year
+          description: 20% annual discount on the OfficeRnD Flex Start Plan for the first year of subscription
           duration:
             kind: exact
             value: P1Y
@@ -49,7 +52,7 @@ offers:
             kind: exact
       consideration:
         kind: variable
-        description: Eligible operators pay the discounted OfficeRnD Flex Start Plan subscription price during the first subscription year.
+        description: The operator subscribes to the OfficeRnD Flex Start Plan and pays its subscription price less the startup discount during the first year.
     eligibility:
       rule:
         kind: all
@@ -58,30 +61,31 @@ offers:
             fact: company.age_months
             kind: predicate
             operator: lt
-            statement: The coworking space must be less than two years old.
+            statement: The coworking space is less than 2 years old.
             value:
               type: number
               value: 24
           - criterion_id: cri_02
             kind: manual
             reason: external-verification
-            statement: The coworking space must have fewer than 200 members.
+            statement: The coworking space has less than 200 members.
           - criterion_id: cri_03
-            fact: customer.is_new
+            fact: company.is_current_customer
             kind: predicate
             operator: eq
-            statement: The applicant must not currently be an OfficeRnD customer.
+            statement: The operator is currently not an OfficeRnD customer.
             value:
               type: boolean
-              value: true
+              value: false
     roles:
       terms_authority_entity_id: ent_1wyz9c1zjtj9tnc6en9fr1pmdt
       access_operator_entity_id: ent_1wyz9c1zjtj9tnc6en9fr1pmdt
     access:
       availability: public
-      instructions: Complete the application form on the OfficeRnD Flex Startup Program page.
+      instructions: Use the "Ready to take the next step?" form on the OfficeRnD Flex Startup Program page to reach the OfficeRnD team.
       method: form
       url: https://www.officernd.com/campaigns/flex-startup-program/
     terms_url: https://www.officernd.com/campaigns/flex-startup-program/
     source_ids:
       - src_e91e9602125a3e9e1795c60522d4a5161131a49384be9d3a512691668ccdb31e
+      - src_ce934489b21c6154bfc84af230d2b8b6ac23f7503d5a73a48f97b2ae32072bcc
