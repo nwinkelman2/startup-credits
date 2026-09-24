@@ -40,20 +40,19 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: A specific number of credits for the CrateDB Cloud service to help get started
+          description: A specific number of credits for the CrateDB cloud service
           kind: other
         - benefit_id: ben_02
-          description: Setup with 3 hours of consulting on use cases, architecture, imports and other topics, hands-on cluster setup, and analysis of the initial dataset to import
+          description: 3 hours of consulting to address use cases, architecture, imports and other miscellaneous topics.
           kind: other
         - benefit_id: ben_03
-          description: Support with consultative inquiries for feedback and best practices advice, plus a technical audit of the solution
+          description: Technical audit to ensure a future proof and scalable solution.
           kind: other
         - benefit_id: ben_04
-          description: Ramp-up with monthly meetings and a full review meeting after 10 months of operation
+          description: Monthly meetings and a full review meeting after 10 months of operation.
           kind: other
       consideration:
-        kind: unknown
-        description: The cited source does not establish separate consideration.
+        kind: none
     eligibility:
       rule:
         criterion_id: cri_01
