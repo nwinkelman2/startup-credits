@@ -11,7 +11,7 @@ entity:
   category: ai-ml
 profile:
   summary: Anyscale is an AI compute platform built on Ray for running data processing, model training, and inference workloads at production scale.
-  description: Anyscale runs Ray-based AI workloads such as multimodal data curation, distributed model training, and batch embedding generation on the Anyscale Runtime.
+  description: Anyscale is an AI compute platform powered by Ray for multimodal data curation, distributed model training, batch embedding generation, and post-training workloads.
   links:
     site: https://www.anyscale.com
 sources:
@@ -40,7 +40,7 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: Up to $20K in Anyscale usage credits, which can be stacked with existing cloud provider credits
+          description: Access up to $20K in Anyscale credits
           kind: credit
           value:
             amount:
@@ -48,7 +48,7 @@ offers:
               minor_units: 2000000
             kind: up-to
         - benefit_id: ben_02
-          description: Dedicated field engineers to support application architecture design and provide hands-on technical support
+          description: Dedicated Field Engineers to support application architecture design and hands-on technical support
           kind: other
       consideration:
         kind: none
@@ -57,7 +57,7 @@ offers:
         criterion_id: cri_01
         kind: manual
         reason: vendor-discretion
-        statement: Anyscale reviews each applicant and may consider factors such as level of funding, technical maturity, and current cloud infrastructure.
+        statement: The program is for startups building the next generation of AI-native applications with Anyscale.
     roles:
       terms_authority_entity_id: ent_tx75drh0kf2nt9jgkwnf4a4n83
       access_operator_entity_id: ent_tx75drh0kf2nt9jgkwnf4a4n83
@@ -65,6 +65,5 @@ offers:
       availability: public
       method: form
       url: https://www.anyscale.com/startup
-      instructions: Submit the application form on the AI Startup Program page; Anyscale's sales team follows up within 24 to 48 hours and reviews fit before onboarding.
     source_ids:
       - src_9d22e9a81e169dd111260594c7d7133c129aa4779c50c314dcd13324ac474920
