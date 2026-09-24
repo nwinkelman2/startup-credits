@@ -31,11 +31,10 @@ offers:
       effective_from: 2026-09-02T09:07:14.036Z
     economics:
       consideration:
-        kind: unknown
-        description: The Browserbase page does not establish separate consideration for redeeming Founder Pack credits.
+        kind: none
       benefits:
         - benefit_id: ben_primary
-          description: ElevenLabs Founder Pack credits redeemable on Browserbase; the amount is not published.
+          description: Redeem your ElevenLabs Founder Pack credits on Browserbase.
           kind: other
     eligibility:
       rule:
