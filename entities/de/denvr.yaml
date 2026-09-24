@@ -43,10 +43,7 @@ offers:
           description: Initial $1,000 of start-up credits for Denvr AI Compute Services
           kind: other
         - benefit_id: ben_02
-          description: Up to $500,000 in production credits for eligible teams, based on needs and potential
-          kind: other
-        - benefit_id: ben_03
-          description: Hands-on training and engineering support for setup and workload performance
+          description: Eligible teams can receive up to $500,000 in production credits based on needs and potential.
           kind: other
       consideration:
         kind: none
