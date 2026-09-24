@@ -10,7 +10,7 @@ entity:
       valid_from: 2026-09-01T10:07:37.339Z
   category: no-code
 profile:
-  summary: Platform for building internal applications and tools.
+  summary: Appsmith is an open source platform for building internal tools such as admin panels, dashboards, CRUD frontends, and back-office apps.
   description: Appsmith is a platform for building internal applications and tools with visual components, data-source connections, and custom code.
   links:
     site: https://www.appsmith.com
@@ -55,7 +55,7 @@ offers:
           kind: free-service
           service: Appsmith Business plan
         - benefit_id: ben_03
-          description: Get access to our dev advocates
+          description: Access to Appsmith developer advocates
           kind: other
     eligibility:
       rule:
@@ -63,23 +63,23 @@ offers:
         rules:
           - criterion_id: cri_01
             kind: manual
-            statement: Applicant plans to use Appsmith for its own startup.
+            statement: The applicant plans to use Appsmith for its own startup.
             reason: not-machine-evaluable
           - criterion_id: cri_02
             fact: company.funding_raised_usd
             kind: predicate
             operator: lt
-            statement: Applicant has raised less than $10 million in funding.
+            statement: The startup has raised less than $10M in funding.
             value:
               type: number
               value: 10000000
           - criterion_id: cri_03
             kind: manual
             reason: external-verification
-            statement: Applicant was incorporated less than two years ago.
+            statement: The startup was incorporated less than 2 years ago.
           - criterion_id: cri_04
             kind: manual
-            statement: Applicant is looking to host Appsmith on its own infrastructure.
+            statement: The startup is looking to host Appsmith on its own infrastructure.
             reason: not-machine-evaluable
     roles:
       terms_authority_entity_id: ent_6br01mq0rfb1v8bwz7xkd6tmaz
