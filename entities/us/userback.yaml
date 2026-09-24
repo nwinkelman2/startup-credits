@@ -49,7 +49,7 @@ offers:
             value: P1Y
       consideration:
         kind: variable
-        description: The startup pays 75% of its chosen annual plan price in the first year; the Business plan lists at $59.25 per month, billed annually.
+        description: The startup receives 25% off annual plans for its first year.
     eligibility:
       rule:
         kind: manual
