@@ -10,21 +10,21 @@ entity:
       valid_from: 2026-09-01T09:22:02.883Z
   category: ai-ml
 profile:
-  summary: Managed Ray-compatible compute platform for AI workloads.
-  description: Anyscale provides a managed, Ray-compatible compute platform for training, data processing,
-    batch inference, and serving AI workloads.
+  summary: Anyscale is an AI compute platform built on Ray for running data processing, model training, and inference workloads at production scale.
+  description: Anyscale runs Ray-based AI workloads such as multimodal data curation, distributed model training, and batch embedding generation on the Anyscale Runtime.
   links:
     site: https://www.anyscale.com
 sources:
   - source_id: src_9d22e9a81e169dd111260594c7d7133c129aa4779c50c314dcd13324ac474920
     url: https://www.anyscale.com/startup
+  - source_id: src_ef971164c15225b595ce0044be018c1e37193e295e16c63350c77696c659560b
+    url: https://www.anyscale.com/
 programs:
   - program_id: prg_k7n01dv7cnyv6s466p4sqan1jv
     program_slug: ai-startup-program
     program_slug_aliases: []
     title: Anyscale AI Startup Program
-    summary: Anyscale helps AI startups launch applications with usage credits, dedicated technical support,
-      and access to its Ray-compatible platform.
+    summary: The Anyscale AI Startup Program gives teams building AI-native applications Anyscale credits, technical support, and access to the Anyscale platform.
     source_ids:
       - src_9d22e9a81e169dd111260594c7d7133c129aa4779c50c314dcd13324ac474920
 offers:
@@ -32,16 +32,15 @@ offers:
     program_id: prg_k7n01dv7cnyv6s466p4sqan1jv
     offer_slug: up-to-twenty-thousand-dollars-in-credits
     offer_slug_aliases: []
-    title: Up to $20,000 in Anyscale Credits
-    summary: Selected startups can receive up to $20,000 in Anyscale credits and dedicated field-engineering
-      support for application architecture and implementation.
+    title: Up to $20K in Anyscale credits
+    summary: Startups accepted into the Anyscale AI Startup Program can access up to $20K in Anyscale credits plus dedicated field engineers for architecture design and hands-on technical support.
     lifecycle:
       status: active
       effective_from: 2026-09-01T09:22:02.883Z
     economics:
       benefits:
         - benefit_id: ben_01
-          description: Up to $20,000 in Anyscale usage credits
+          description: Up to $20K in Anyscale usage credits, which can be stacked with existing cloud provider credits
           kind: credit
           value:
             amount:
@@ -49,25 +48,23 @@ offers:
               minor_units: 2000000
             kind: up-to
         - benefit_id: ben_02
-          description: Dedicated field engineers support application architecture design and provide hands-on technical support.
+          description: Dedicated field engineers to support application architecture design and provide hands-on technical support
           kind: other
       consideration:
-        kind: unknown
-        description: The source does not state separate consideration for program benefits.
+        kind: none
     eligibility:
       rule:
         criterion_id: cri_01
         kind: manual
         reason: vendor-discretion
-        statement: Anyscale reviews applicants for its AI Startup Program.
+        statement: Anyscale reviews each applicant and may consider factors such as level of funding, technical maturity, and current cloud infrastructure.
     roles:
       terms_authority_entity_id: ent_tx75drh0kf2nt9jgkwnf4a4n83
       access_operator_entity_id: ent_tx75drh0kf2nt9jgkwnf4a4n83
     access:
       availability: public
-      method: contact
-      url: https://www.anyscale.com/contact-sales
-      instructions: Submit Anyscale's contact form to speak with its team about the AI Startup Program.
-    terms_url: https://www.anyscale.com/startup
+      method: form
+      url: https://www.anyscale.com/startup
+      instructions: Submit the application form on the AI Startup Program page; Anyscale's sales team follows up within 24 to 48 hours and reviews fit before onboarding.
     source_ids:
       - src_9d22e9a81e169dd111260594c7d7133c129aa4779c50c314dcd13324ac474920
