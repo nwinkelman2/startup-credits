@@ -10,6 +10,7 @@ entity:
       valid_from: 2026-08-30T23:20:00Z
   category: hosting-infra
 profile:
+  summary: Serverspace is a cloud provider offering Linux, Windows, and GPU VPS, managed Kubernetes, networking, CDN, and hosting, with servers in the USA, the Netherlands, Kazakhstan, Canada, the UAE, and Brazil.
   description: Serverspace is a cloud platform for deploying servers, storage, networks, Kubernetes, CDN, and infrastructure automation through one control panel.
   links:
     site: https://serverspace.us/home-page/
@@ -23,7 +24,7 @@ programs:
     program_slug: serverspace-startup-program
     program_slug_aliases: []
     title: Serverspace Startup Program
-    summary: Serverspace offers qualifying early-stage startups USD 10,000 in cloud-service credits for one year plus around-the-clock technical support.
+    summary: The Serverspace Startup Program gives qualifying early-stage startups $10,000 in cloud credits for one year, 24/7 human technical support, partner perks, and sessions with Serverspace experts.
     source_ids:
       - src_eff5cb59f4a262bcce6e2efcdc8b5d1d09b5e4602249d56fa869e737dfc78b87
 offers:
@@ -32,14 +33,14 @@ offers:
     offer_slug: startup-cloud-credits-and-support
     offer_slug_aliases: []
     title: Serverspace Startup Cloud Credits and Support
-    summary: Qualifying startups can receive USD 10,000 in cloud credits for one year and 24/7 human technical support; applications currently join a waitlist while active review is paused.
+    summary: Qualifying startups can receive $10,000 in Serverspace cloud credits to use over one year plus 24/7 human support; new applications currently join a waitlist while active review is paused.
     lifecycle:
       status: active
       effective_from: 2026-08-30T23:20:00Z
     economics:
       benefits:
         - benefit_id: ben_01
-          description: USD 10,000 in credits for Serverspace cloud infrastructure services
+          description: $10,000 in credits for Serverspace infrastructure services, to use over one year.
           duration:
             kind: exact
             value: P1Y
@@ -50,40 +51,23 @@ offers:
               minor_units: 1000000
             kind: exact
         - benefit_id: ben_02
-          description: 24/7 human technical support with a stated 15-minute response time
+          description: 24/7 human technical support with a 15-minute response time, partner perks such as discounts and early beta access, and personalized sessions with Serverspace product managers and engineers.
           kind: other
       consideration:
-        kind: none
+        kind: variable
+        description: By joining the program, the startup agrees that Serverspace may include its company name and logo in its partner list, promotional materials, or social media posts.
     eligibility:
       rule:
-        kind: all
-        rules:
-          - criterion_id: cri_01
-            kind: manual
-            reason: external-verification
-            statement: The startup has an active company website and a business email address on that domain.
-          - criterion_id: cri_02
-            fact: company.age_years
-            kind: predicate
-            operator: lte
-            statement: The startup was founded within the last five years.
-            value:
-              type: number
-              value: 5
-          - criterion_id: cri_03
-            kind: manual
-            reason: external-verification
-            statement: The startup has its own logo and brand identity.
-          - criterion_id: cri_04
-            kind: manual
-            reason: external-verification
-            statement: The startup has a defined business plan or investor pitch describing its goals.
+        criterion_id: cri_01
+        kind: manual
+        reason: external-verification
+        statement: The startup has an active company website and a business email address on that domain, was founded within the last 5 years, has its own logo and brand identity, and has a well-defined business plan or investor pitch.
     roles:
       terms_authority_entity_id: ent_01m1afjg42me4vf1rarfd7tp51
       access_operator_entity_id: ent_01m1afjg42me4vf1rarfd7tp51
     access:
       availability: public
-      instructions: Complete the startup-program form to join the waitlist; Serverspace states that active application review is temporarily paused because of submission volume.
+      instructions: Create a Serverspace account and complete the startup program form to join the waitlist. Serverspace says active review is temporarily paused due to high volume and it will email startups selected for further review.
       method: form
       url: https://serverspace.us/solutions/startup-cloud-program/
     source_ids:
