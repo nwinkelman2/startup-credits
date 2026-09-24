@@ -39,8 +39,8 @@ offers:
       effective_from: 2026-08-30T20:53:48.157Z
     economics:
       consideration:
-        kind: unknown
-        description: "Year 1: pay 6 months; year 2: pay 8 months; year 3: pay 10 months."
+        kind: variable
+        description: The startup pays for 6 months of its plan in year one, 8 months in year two, and 10 months in year three.
       benefits:
         - benefit_id: ben_01
           description: Pay for six months and get six months free in year one
@@ -74,6 +74,7 @@ offers:
       access_operator_entity_id: ent_01m1a761d5nqzwxfmefajdch5n
     access:
       availability: public
+      instructions: Use See if you qualify on the Olqan Startup Program page to submit an application; the program period starts once the application is approved and account setup is complete.
       method: form
       url: https://olqan.com/startup-program/
     terms_url: https://olqan.com/startup-program/
