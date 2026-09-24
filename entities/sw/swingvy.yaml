@@ -51,7 +51,7 @@ offers:
             kind: exact
       consideration:
         kind: variable
-        description: The startup pays Swingvy's per-user monthly plan price with the 50% startup discount applied during the first year.
+        description: The startup receives 50% off Swingvy's all-in-one HR platform for one year.
     eligibility:
       rule:
         kind: all
@@ -89,9 +89,9 @@ offers:
       access_operator_entity_id: ent_bk3mzkpepw8ns7k4z21nf4h8fq
     access:
       availability: public
-      instructions: Use the Apply Now button on Swingvy's startup program page to register for the startup programme pricing.
+      instructions: Use the Apply Now link on Swingvy's startup-program page and complete the Swingvy signup flow.
       method: form
-      url: https://www.swingvy.com/sg/startups
+      url: https://secure.swingvy.com/
     source_ids:
       - src_c63c7c4b4551b8323a4fe2316757731fce3dbb21957aea66e1278292304c6e8b
       - src_35578c82dfec00c300cac11bc7405e5f831dca36df321b2bc8332302e87c73b3
