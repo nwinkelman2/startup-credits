@@ -25,7 +25,7 @@ programs:
     program_slug: cncf-startup-program
     program_slug_aliases: []
     title: CNCF Startup Program
-    summary: CNCF's Silver Membership for Startups gives qualifying cloud native startups 50% off the KubeCon + CloudNativeCon booth price and priority placement.
+    summary: CNCF gives qualifying cloud-native startups discounted KubeCon + CloudNativeCon booth pricing and priority placement through its startup membership program.
     source_ids:
       - src_465b2df23cc0822a2871b8fc552461d178be35cd52e4dea0bc9a3759c3d9f374
 offers:
@@ -52,7 +52,7 @@ offers:
           kind: other
       consideration:
         kind: variable
-        description: The startup joins CNCF at the Startup sponsorship tier (the Silver Membership for Startups) and pays the discounted booth price.
+        description: The startup receives 50% off the booth price and priority placement with a Startup Sponsorship.
     eligibility:
       rule:
         kind: all
