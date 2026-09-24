@@ -10,18 +10,21 @@ entity:
       valid_from: 2026-09-01T10:41:14.305Z
   category: hosting-infra
 profile:
-  description: Qarnot provides low-carbon cloud infrastructure for high-performance computing workloads.
+  summary: Qarnot is a European cloud HPC platform that engineering teams use to run simulations on demand, with pay-as-you-go pricing and SDKs for automation.
+  description: Qarnot provides a ready-to-use cloud HPC platform for engineering simulations, operated in Europe, with simulation software, SDKs, and pay-as-you-go pricing.
   links:
     site: https://qarnot.com
 sources:
   - source_id: src_194dbedb481c4a6f53232ca730db451b5ded936aa5df09818aeb803c50cf951b
     url: https://qarnot.com/en/start-up
+  - source_id: src_4366615c3e32c9f15a68a086d9e72a00dbd49b97fd5446389571a5d969a698b3
+    url: https://qarnot.com/en
 programs:
   - program_id: prg_rnzy09gfv8288dyzhywx5s6z8a
     program_slug: qarnot-startup-program
     program_slug_aliases: []
     title: Qarnot Startup Program
-    summary: Qarnot gives startups cloud credits, discounted HPC usage, and technical support for compute-intensive projects.
+    summary: Qarnot's start-up program gives start-ups free cloud credits, discounted pay-as-you-go computing, no data transfer fees, and dedicated technical support.
     source_ids:
       - src_194dbedb481c4a6f53232ca730db451b5ded936aa5df09818aeb803c50cf951b
 offers:
@@ -30,7 +33,7 @@ offers:
     offer_slug: 6000-eur-credits-and-50-percent-discount
     offer_slug_aliases: []
     title: €6,000 in credits, then 50% off compute usage
-    summary: Eligible startups receive €6,000 in Qarnot cloud credits for six months, followed by 50% off pay-as-you-go compute usage, with no data-transfer fees and dedicated support.
+    summary: Start-ups get €6,000 in free Qarnot cloud credits for the first six months, then a 50% discount on pay-as-you-go computing, with no data transfer fees and dedicated support.
     lifecycle:
       status: active
       effective_from: 2026-09-01T10:41:14.305Z
@@ -61,20 +64,20 @@ offers:
           kind: waiver
           waived_item: Data-transfer fees
         - benefit_id: ben_04
-          description: Dedicated technical support, one-on-one engineering assistance, and custom documentation
+          description: Dedicated technical support, including a one-on-one consultation with a specialized engineer to simplify integration
           kind: other
     eligibility:
       rule:
         kind: manual
         criterion_id: cri_01
-        statement: Applicant is a startup seeking high-performance cloud computing for its projects.
-        reason: external-verification
+        statement: The applicant is a start-up joining Qarnot's start-up program.
+        reason: not-machine-evaluable
     roles:
       terms_authority_entity_id: ent_k30wqmjt82zxe4vmkmstd321js
       access_operator_entity_id: ent_k30wqmjt82zxe4vmkmstd321js
     access:
       availability: public
-      instructions: Use the Speak to an expert form on Qarnot's public startup-program page to discuss the startup's needs and request program access.
+      instructions: Use the Speak to an expert form on the start-up program page; a Qarnot expert contacts the applicant to discuss its needs.
       method: contact
       url: https://qarnot.com/en/start-up
     terms_url: https://qarnot.com/en/start-up
